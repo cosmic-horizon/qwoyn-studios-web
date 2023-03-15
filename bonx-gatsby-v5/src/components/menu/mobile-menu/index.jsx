@@ -116,7 +116,7 @@ const MobileNavMenu = ({ MobilemenuData, ofcanvasOpen, ofcanvasHandaler }) => {
                 </ul>
                 <div className="action-button text-center">
                     <Button path="/" shape="square2xl" className="text-white">
-                        SIGN UP
+                        KEPLR Login
                         <StaticImage
                             className="align-middle ml-3"
                             src="../../../data/images/icons/arrrow-icon2.webp"
