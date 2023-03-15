@@ -27,7 +27,7 @@ const IndexPage = ({ data }) => {
             <HeroArea data={content["hero-section"]} />
             <WelcomeFeaturesArea data={content["welcome-section"]} />
             <WatchLiveStremingArea data={{ items: data.allMatch.nodes }} />
-            <MatchArea
+            {/*<MatchArea
                 data={{
                     ...content["upcoming-match"],
                     items: data.allMatch.nodes,
@@ -46,7 +46,7 @@ const IndexPage = ({ data }) => {
                     ...content["latest-section"],
                     items: data.latestPosts.nodes,
                 }}
-            />
+            />*/}
         </Layout>
     );
 };

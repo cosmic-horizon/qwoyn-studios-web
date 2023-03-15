@@ -8,20 +8,20 @@
             "headings": [
                 {
                     "level": "h1",
-                    "content": "BEST GAME PLAYING TODAY."
+                    "content": "PLAY AND EARN GAMING"
                 }
             ],
             "texts": [
                 {
-                    "content": "Simply text of the printing and typesetting industry."
+                    "content": "Experience the Future of Blockchain Technology."
                 }
             ],
             "buttons": [
                 {
                     "id": 1,
                     "size": "lg",
-                    "path": "/contact-us",
-                    "content": "Play Now"
+                    "path": "/",
+                    "content": "KEPLR Login"
                 }
             ]
         },
@@ -29,10 +29,10 @@
             "id": "home-welcome-section",
             "section": "welcome-section",
             "section_title": {
-                "showDescription": false,
+                "showDescription": true,
                 "align": "center",
-                "heading": "YOU ARE MOST WELCOME IN GAMING WORLD.",
-                "description": "When unknown printer took type and scrambled it to make type specimen book centuries,"
+                "heading": "WELCOME TO THE GAMING REVOLUTION",
+                "description": "Experience the Future of Gaming: Play, Earn, and Be at the Center of the Blockchain Gaming Revolution!"
             },
             "items": [
                 {
@@ -46,21 +46,21 @@
                     "images": [
                         {
                             "src": "../../data/images/features/gaming-world1.webp",
-                            "alt": "LIVE STREAMING"
+                            "alt": "DECENTRALIZATION"
                         },
                         {
                             "src": "../../data/images/features/gaming-world-bg1.webp",
                             "alt": "LIVE STREAMING"
                         }
                     ],
-                    "description": "When unknown printer took type and scrambled it to make type specimen book centuries,"
+                    "description": "Decentralized Blockchain - Where Trust, Security, and Transparency Meet for a Better Tomorrow"
                 },
                 {
                     "id": "features-2",
                     "headings": [
                         {
                             "level": "h3",
-                            "content": "GAME NEWS"
+                            "content": "COMMUNITY FOCUSED"
                         }
                     ],
                     "images": [
@@ -73,14 +73,14 @@
                             "alt": "LIVE STREAMING"
                         }
                     ],
-                    "description": "When unknown printer took type and scrambled it to make type specimen book centuries,"
+                    "description": "Unlocking the Power of Collaboration - Join the Community and Explore Blockchain Gaming Potential"
                 },
                 {
                     "id": "features-3",
                     "headings": [
                         {
                             "level": "h3",
-                            "content": "GAME TOURNAMENTS"
+                            "content": "GAMEFI"
                         }
                     ],
                     "images": [
@@ -93,7 +93,7 @@
                             "alt": "LIVE STREAMING"
                         }
                     ],
-                    "description": "When unknown printer took type and scrambled it to make type specimen book centuries,"
+                    "description": "Game Like a Pro, Earn Like a Pro - Enter the GameFi Universe and Discover a New World of Rewards,"
                 }
             ]
         },
