@@ -20,8 +20,8 @@
                 {
                     "id": 1,
                     "size": "lg",
-                    "path": "/",
-                    "content": "KEPLR Login"
+                    "path": "/about-us",
+                    "content": "Learn More"
                 }
             ]
         },
