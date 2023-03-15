@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e50afe98-74b7-4863-9795-b7954343a2a5" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/components/menu/mobile-menu/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/menu/mobile-menu/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/inner-pages/about-us-page.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/inner-pages/about-us-page.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +41,7 @@
     "WebServerToolWindowFactoryState": "false",
     "go.import.settings.migrated": "true",
     "go.sdk.automatically.set": "true",
-    "last_opened_file_path": "/home/qwoyn/qwoyn-studios/qwoyn-studios-web/bonx-gatsby-v5/src/data/general",
+    "last_opened_file_path": "/home/qwoyn/qwoyn-studios/qwoyn-studios-web/bonx-gatsby-v5/src/data/inner-pages",
     "node.js.detected.package.eslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "nodejs_package_manager_path": "yarn"
@@ -48,11 +49,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/data/inner-pages" />
       <recent name="$PROJECT_DIR$/src/data/general" />
       <recent name="$PROJECT_DIR$/src/data/images" />
       <recent name="$PROJECT_DIR$/src/assets" />
       <recent name="$PROJECT_DIR$/src/assets/images/svg" />
-      <recent name="$PROJECT_DIR$/src/assets/images" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/assets/images" />
