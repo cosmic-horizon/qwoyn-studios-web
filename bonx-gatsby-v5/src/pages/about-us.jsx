@@ -28,10 +28,10 @@ const MatchPage = ({ data, location, pageContext }) => {
                 title="About Us"
             />
             <AboutUsOurStudioArea data={content["our-studio-section"]} />
-            <FunfactArea data={content["funfact-section"]} />
+            {/*<FunfactArea data={content["funfact-section"]} />
             <WatchLiveStremingArea data={{ items: data.allMatch.nodes }} />
             <OurTeamsArea data={content["our-team-section"]} />
-            <TestimonialArea data={content["testimonial-section"]} />
+            <TestimonialArea data={content["testimonial-section"]} />*/}
         </Layout>
     );
 };
