@@ -14,27 +14,27 @@
                             "content": "HOW CAN I CONTACT THE TEAM FOR HELP?"
                         }
                     ],
-                    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been industry standard unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five reIcentem with desktop publishing softwa like including versions has been industry standard unknown printer took a galley of type and scramIblrd it to make a type specimen book ha with desktop publishing software like including versions."
+                    "description": "Members of our team are always available on our Discord."
                 },
                 {
                     "id": "FAQ-02",
                     "headings": [
                         {
                             "level": "h3",
-                            "content": "What should I do if I’m missing a part?"
+                            "content": "When is Qwoyn Network Launching?"
                         }
                     ],
-                    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been industry standard unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five reIcentem with desktop publishing softwa like including versions has been industry standard unknown printer took a galley of type and scramIblrd it to make a type specimen book ha with desktop publishing software like including versions."
+                    "description": "Our tentative blockchain launch date is set for May 15, 2023."
                 },
                 {
                     "id": "FAQ-03",
                     "headings": [
                         {
                             "level": "h3",
-                            "content": "Can I play bonx more than once?"
+                            "content": "What current projects is Qwoyn Studios working on?"
                         }
                     ],
-                    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been industry standard unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five reIcentem with desktop publishing softwa like including versions has been industry standard unknown printer took a galley of type and scramIblrd it to make a type specimen book ha with desktop publishing software like including versions."
+                    "description": "Our latest project is Cosmic Horizon, a play-and-earn strategy space-trading/conquest MMRPG, developed by Qwoyn Studios and powered by the Cosmos SDK. Cosmic Horizon takes inspiration from adventure and strategy games of the 1990s and updates the established concepts with a modern blockchain-based approach. The core elements of the game consist of the Universe (divided into thousands of individual sectors) and the elements within it, namely: Players, Ships, Planets (including special planets) and Ports (including special ports). Players will interact with the world and one another to gain resources and exert control over sections of the universe.."
                 },
                 {
                     "id": "FAQ-04",
