@@ -4,30 +4,30 @@
     "footer": [
         {
             "id": "footer-1",
-            "text": "It long estabhed fact that reader will ditracted the readable content looking using readable.",
+            "text": "Blockchain gaming revolution.",
             "socials": [
                 {
                     "id": 1,
-                    "icon": "icofont-facebook",
-                    "link": "https://www.facebook.com",
-                    "title": "facebook"
+                    "icon": "icofont-discord",
+                    "link": "https://discord.cosmic-horizon.com",
+                    "title": "discord"
                 },
                 {
                     "id": 2,
-                    "icon": "icofont-dribbble",
-                    "link": "https://dribbble.com",
-                    "title": "dribbble"
+                    "icon": "icofont-medium",
+                    "link": "https://medium.com",
+                    "title": "medium"
                 },
                 {
                     "id": 3,
                     "icon": "icofont-youtube-play",
-                    "link": "https://www.youtube.com",
+                    "link": "https://www.youtube.com/cosmic-horizon",
                     "title": "youtube"
                 },
                 {
                     "id": 4,
                     "icon": "icofont-twitter",
-                    "link": "https://www.twitter.com",
+                    "link": "https://www.twitter.com/Qwoyn_Studios",
                     "title": "twitter"
                 }
             ]
@@ -39,12 +39,12 @@
                 {
                     "id": "contact_info-21",
                     "title": "Location",
-                    "text": "136 Harding Ave Wheeling, West Virginia"
+                    "text": "Portland, Oregon"
                 },
                 {
                     "id": "contact_info-22",
-                    "title": "Phone",
-                    "text": "00 (62) 632 867 4497"
+                    "title": "Email",
+                    "text": "admin@cosmic-horizon.com"
                 }
             ]
         },
