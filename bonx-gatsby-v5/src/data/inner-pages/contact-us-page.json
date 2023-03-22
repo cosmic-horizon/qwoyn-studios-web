@@ -26,12 +26,12 @@
                     ],
                     "action_link": [
                         {
-                            "title": "gamestudio@gmail.com",
-                            "link": "mailto:gamestudio@gmail.com"
+                            "title": "admin@cosmic-horizon.com",
+                            "link": "mailto:admin@cosmic-horizon.com"
                         },
                         {
-                            "title": "support24@gmail.com",
-                            "link": "mailto:support24@gmail.com"
+                            "title": "devops@cosmic-horizon.com",
+                            "link": "mailto:devops@cosmic-horizon.com"
                         }
                     ]
                 },
@@ -53,14 +53,14 @@
                             "alt": "LIVE STREAMING"
                         }
                     ],
-                    "description": "100 N Aurora Ave #APT 19 Oakland, Nebraska(NE), 68045"
+                    "description": "Portland, Oregon"
                 },
                 {
                     "id": "contact-us-info-3",
                     "headings": [
                         {
                             "level": "h3",
-                            "content": "PHONE:"
+                            "content": "CHAT:"
                         }
                     ],
                     "images": [
@@ -75,12 +75,12 @@
                     ],
                     "action_link": [
                         {
-                            "title": "(402) 685-5964",
-                            "link": "tel:(402) 685-5964"
+                            "title": "Discord",
+                            "link": "https://discord.cosmic-horizon.com"
                         },
                         {
-                            "title": "+88 (00) 4568 457 437",
-                            "link": "tel:+88 (00) 4568 457 437"
+                            "title": "Telegram",
+                            "link": "https://t.me/cosmic_horizon"
                         }
                     ]
                 }
@@ -93,7 +93,7 @@
                 "showDescription": true,
                 "align": "center",
                 "heading": "GET IN TOUCH",
-                "description": "When unknown printer took type and scrambled it to make type specimen book centuries,"
+                "description": "Send us a message here but for a faster response response reach out on Discord"
             },
             "buttons": [
                 {
