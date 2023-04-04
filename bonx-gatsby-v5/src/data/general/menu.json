@@ -10,7 +10,7 @@
         {
             "id": "menu-3",
             "text": "Pages",
-            "link": "/faq",
+            "link": "/",
             "submenu": [
                 {
                     "id": "menu-31",
