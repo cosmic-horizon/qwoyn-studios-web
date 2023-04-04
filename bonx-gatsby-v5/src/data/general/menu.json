@@ -26,11 +26,6 @@
                     "id": "menu-32",
                     "text": "Games Page",
                     "link": "/games"
-                },
-                {
-                    "id": "menu-34",
-                    "text": "Game players",
-                    "link": "/players"
                 }
             ]
         },
