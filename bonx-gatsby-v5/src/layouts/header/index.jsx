@@ -39,11 +39,11 @@ const Header = ({ data }) => {
                         <MainMenu allmenuData={data?.menu} />
                         <div className="header-right-action flex items-center">
                             <Button
-                                path="/"
+                                path="https://dashboard.qwoyn.studio/"
                                 shape="square2xl"
                                 className="text-white hidden xs:block"
                             >
-                                KEPLR
+                                Qwoyn Dashboard
                                 <StaticImage
                                     className="align-middle ml-3"
                                     src="../../data/images/icons/arrrow-icon2.webp"
