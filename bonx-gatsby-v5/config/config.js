@@ -13,7 +13,7 @@ module.exports = {
         "crypto",
         "Gaming Website",
     ],
-    image: "https://i.imgur.com/EZBSGwH.png",
+    image: "../src/assets/images/qwoyn-logo-4by2-01-1.png",
     siteUrl: "https://qwoyn.studio",
     pathPrefix: "/",
     localUrl: "http://localhost:8000",
