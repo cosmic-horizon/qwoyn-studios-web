@@ -40,7 +40,7 @@
                     "headings": [
                         {
                             "level": "h3",
-                            "content": "LIVE STREAMING"
+                            "content": "DECENTRALIZED OWNERSHIP"
                         }
                     ],
                     "images": [
@@ -60,7 +60,7 @@
                     "headings": [
                         {
                             "level": "h3",
-                            "content": "COMMUNITY FOCUSED"
+                            "content": "SOVEREIGNTY"
                         }
                     ],
                     "images": [
@@ -73,14 +73,14 @@
                             "alt": "LIVE STREAMING"
                         }
                     ],
-                    "description": "Unlocking the Power of Collaboration - Join the Community and Explore Blockchain Gaming Potential"
+                    "description": "Unlocking the Power of Governance - Build a Community and Explore Blockchain Gaming Potential"
                 },
                 {
                     "id": "features-3",
                     "headings": [
                         {
                             "level": "h3",
-                            "content": "GAMEFI"
+                            "content": "INTEROPERABILITY"
                         }
                     ],
                     "images": [
@@ -93,7 +93,7 @@
                             "alt": "LIVE STREAMING"
                         }
                     ],
-                    "description": "Game Like a Pro, Earn Like a Pro - Enter the GameFi Universe and Discover a New World of Rewards,"
+                    "description": "Unlocking the Full Potential of Non-Fungible Tokens (NFTs) through Interoperability Across Multiple Networks and Games"
                 }
             ]
         },
