@@ -33,7 +33,7 @@ const GamesDetails = ({ data, location, pageContext }) => {
             <PageBreadcrumb
                 pageContext={pageContext}
                 location={location}
-                title="Games Details"
+                title="Game Details"
             />
             <div className="games-post-content-wrapper">
                 <div className="container">
