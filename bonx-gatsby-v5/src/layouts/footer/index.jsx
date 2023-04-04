@@ -40,29 +40,27 @@ const Footer = ({ data }) => {
                     <div className="container">
                         <div className=" flex flex-col md:flex-row md:justify-between items-center py-6">
                             <div className="">
-                                &copy; {new Date().getFullYear()} BONX MADE WITH{" "}
-                                <i className="icofont-heart"></i> BY
+                                &copy; {new Date().getFullYear()} Qwoyn Studios S-LLC,
                                 <a
                                     className="hover:text-primary"
-                                    href="https://hasthemes.com/"
+                                    href="https://qwoyn.studio/"
                                     target="_blank"
                                     rel="noopener noreferrer"
                                 >
-                                    {" "}
-                                    HasThemes
+                                    All rights reserved.
                                 </a>
                             </div>
                             <div className="footer-copyright-right">
                                 <div className="flex">
                                     <a
-                                        href="https://hasthemes.com/"
+                                        href="https://qwoyn.studio/"
                                         className="text-white hover:text-primary"
                                     >
                                         Terms &amp; Condition{" "}
                                     </a>
                                     <span className="mx-3"> || </span>
                                     <a
-                                        href="https://hasthemes.com/"
+                                        href="https://qwoyn.studio/"
                                         className="text-white hover:text-primary"
                                     >
                                         Privacy Policy{" "}
