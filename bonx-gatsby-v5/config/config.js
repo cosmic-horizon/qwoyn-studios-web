@@ -2,7 +2,7 @@
 module.exports = {
     title: "Qwoyn Studios",
     titleTemplate: "Play and Earn Gaming",
-    description: "React Gatsby",
+    description: "Decentralized Cosmos Gaming",
     author: "Qwoyn",
     twitterUsername: "@Qwoyn_Studios",
     keywords: [
