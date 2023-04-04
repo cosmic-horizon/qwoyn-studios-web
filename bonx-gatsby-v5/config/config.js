@@ -1,20 +1,20 @@
 /* eslint-disable prettier/prettier */
 module.exports = {
-    title: "Bonx",
-    titleTemplate: "Bonx - Gaming React Gatsby Website",
+    title: "Qwoyn Studios",
+    titleTemplate: "Qwoyn Studios - Play and Earn Gaming",
     description: "React Gatsby",
-    author: "Bonx",
-    twitterUsername: "@bonx",
+    author: "Qwoyn",
+    twitterUsername: "@Qwoyn_Studios",
     keywords: [
-        "bootstrap",
-        "html",
-        "react",
+        "cosmos",
+        "coho",
+        "blockchain",
         "gatsby",
-        "bonx",
+        "crypto",
         "Gaming Website",
     ],
-    image: "",
-    siteUrl: "https://bonx.com",
+    image: "https://i.imgur.com/EZBSGwH.png",
+    siteUrl: "https://qwoyn.studio",
     pathPrefix: "/",
     localUrl: "http://localhost:8000",
     canonical: "",
@@ -25,7 +25,7 @@ module.exports = {
     },
     siteLanguage: "en",
     favicon: "src/assets/images/favicon.png", // Used for manifest favicon generation
-    shortName: "bonx", // shortname for manifest. *Must* be shorter than 12 characters
+    shortName: "qwoyn", // shortname for manifest. *Must* be shorter than 12 characters
     themeColor: "#5E60E7",
     backgroundColor: "#fff",
 };
