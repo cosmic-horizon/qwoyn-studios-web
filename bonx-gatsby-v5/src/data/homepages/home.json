@@ -40,6 +40,26 @@
                     "headings": [
                         {
                             "level": "h3",
+                            "content": "SOVEREIGNTY"
+                        }
+                    ],
+                    "images": [
+                        {
+                            "src": "../../data/images/features/gaming-world2.webp",
+                            "alt": "GAME NEWS"
+                        },
+                        {
+                            "src": "../../data/images/features/gaming-world-bg2.webp",
+                            "alt": "LIVE STREAMING"
+                        }
+                    ],
+                    "description": "Unlocking the Power of Governance - Build a Community and Explore Blockchain Gaming Potential",
+                },
+                {
+                    "id": "features-2",
+                    "headings": [
+                        {
+                            "level": "h3",
                             "content": "DECENTRALIZED OWNERSHIP"
                         }
                     ],
@@ -54,26 +74,6 @@
                         }
                     ],
                     "description": "Decentralized Blockchain - Where Trust, Security, and Transparency Meet for a Better Tomorrow"
-                },
-                {
-                    "id": "features-2",
-                    "headings": [
-                        {
-                            "level": "h3",
-                            "content": "SOVEREIGNTY"
-                        }
-                    ],
-                    "images": [
-                        {
-                            "src": "../../data/images/features/gaming-world2.webp",
-                            "alt": "GAME NEWS"
-                        },
-                        {
-                            "src": "../../data/images/features/gaming-world-bg2.webp",
-                            "alt": "LIVE STREAMING"
-                        }
-                    ],
-                    "description": "Unlocking the Power of Governance - Build a Community and Explore Blockchain Gaming Potential"
                 },
                 {
                     "id": "features-3",
