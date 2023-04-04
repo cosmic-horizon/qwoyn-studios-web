@@ -1,7 +1,7 @@
 /* eslint-disable prettier/prettier */
 module.exports = {
     title: "Qwoyn Studios",
-    titleTemplate: "Play and Earn Gaming",
+    titleTemplate: "Play and Earn",
     description: "Decentralized Cosmos Gaming",
     author: "Qwoyn",
     twitterUsername: "@Qwoyn_Studios",

@@ -29,7 +29,7 @@ const MatchPage = ({ data, location, pageContext }) => {
                     items: data.allGames.nodes,
                 }}
             />
-            <FunfactArea data={content["funfact-section"]} />
+            {/*<FunfactArea data={content["funfact-section"]} />*/}
         </Layout>
     );
 };
