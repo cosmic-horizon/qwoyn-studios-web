@@ -29,7 +29,7 @@ const GamesDetails = ({ data, location, pageContext }) => {
                 ...globalContent["footer"],
             }}
         >
-            <SEO title="Games Details" pathname="/" />
+            <SEO title="Game Details" pathname="/" />
             <PageBreadcrumb
                 pageContext={pageContext}
                 location={location}
