@@ -44,11 +44,6 @@ const Header = ({ data }) => {
                                 className="text-white hidden xs:block"
                             >
                                 Qwoyn Dashboard
-                                <StaticImage
-                                    className="align-middle ml-3"
-                                    src="../../data/images/icons/arrrow-icon2.webp"
-                                    alt=""
-                                />
                             </Button>
                             <button
                                 onClick={ofcanvasHandaler}
