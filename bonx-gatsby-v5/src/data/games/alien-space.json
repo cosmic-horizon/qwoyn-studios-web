@@ -1,11 +1,11 @@
 {
     "id": "game-01",
-    "title": "Alien Space - SNIPER SHOOTER",
+    "title": "Cosmic Horizon - CONQUEST|MMORPG",
     "gameThum": {
         "src": "../../data/images/game/popular-game-thumb1.webp",
         "alt": "Anonymous"
     },
-    "categories": ["Drawing", "Collage"],
+    "categories": ["Strategy", "MMORPG"],
     "date": "2021-01-02 13:01:00",
     "updated": "2021-01-02",
     "size": "98MB",

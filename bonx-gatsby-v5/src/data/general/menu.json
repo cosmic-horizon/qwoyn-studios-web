@@ -21,6 +21,16 @@
                     "id": "menu-33",
                     "text": "FAQ's Page",
                     "link": "/faq"
+                },
+                {
+                    "id": "menu-32",
+                    "text": "Games Page",
+                    "link": "/games"
+                },
+                {
+                    "id": "menu-34",
+                    "text": "Game players",
+                    "link": "/players"
                 }
             ]
         },

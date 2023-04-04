@@ -1,19 +1,19 @@
 {
     "id": "game-05",
-    "title": "Alien Space Five Star",
+    "title": "Cosmic Horizon - CONQUEST|MMORPG",
     "gameThum": {
         "src": "../../data/images/game/popular-game-thumb5.webp",
         "alt": "Anonymous"
     },
-    "categories": ["Drawing", "Alien Space"],
-    "date": "2021-01-02 13:01:00",
+    "categories": ["Strategy", "MMORPG"],
+    "date": "2023-09-02 13:01:00",
     "updated": "2021-01-02",
     "size": "98MB",
     "installs": "80,000,000+",
     "currentVersion": "03.00.28.00.00",
     "inAppProducts": "$0.85 - $985.00",
     "is_featured": true,
-    "quoteText": "Lorem Ipsum is simply dummy text of the printing and typesetting industry has been the industry's standard dummy text ever since the 1500 printer took galley of type scrambled it to make a type specimen book.",
+    "quoteText": "This is the quote text",
     "images": [
         {
             "src": "../../data/images/game/game-details-thumb.webp",
@@ -42,26 +42,34 @@
             "items": [
                 {
                     "id": "game-details-1",
-                    "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500 when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap electro typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+                    "desc": "Cosmic Horizon is a P&E (play-and-earn) strategy, trade and conquest MMRPG developed by Qwoyn Studios and powered by the Cosmos SDK. Cosmic Horizon (CoHo) combines the power and engaging gameplay enabled by modern game engines with user-empowering enhancements and functionalities made possible by a blockchain-based architecture. True player-owned, sovereign assets; dynamic economies; community governance; and gamification of ecocredit retirement are just a few unique features made possible by this new approach to blockchain gaming."
                 },
                 {
                     "id": "game-details-2",
-                    "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500 when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap electro typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+                    "desc": "Cosmic Horizon draws some inspiration from classic adventure and strategy games of the 1990s, but utilizes a modern game engine and blockchain infrastructure to provide a modern and dynamic gaming experience that aligns with the sensibilities of traditional gamers, while requiring little if any experience in blockchain."
+                },
+                {
+                    "id": "game-details-3",
+                    "desc": "Cosmic Horizon places players in an unexplored galaxy, filled with planets, ships, trading outposts, and space stations to discover (and potentially conquer). To prosper, players earn funds by buying and selling commodities, acquiring and upgrading their ships, and developing planets and other fortifications. Players may choose to form syndicates and alliances to pursue galactic hegemony collectively or grow and build as lone privateers. Ultimately players will develop their own unique strategies and styles of play in the open universe of Cosmic Horizon."
                 }
             ]
         },
         {
             "id": "game-details-per-two",
             "section": "game-details-per-two",
-            "headings": [{ "content": "DESCRIPTION:" }],
+            "headings": [{ "content": "STORYLINE:" }],
             "items": [
                 {
                     "id": "game-details-1",
-                    "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500 when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap electro typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+                    "desc": "The Muscarians discovered a wormhole created by the Vedic, an alien race of explorers, and were introduced to cyrillium, a power source that revolutionized space travel. This led to colonization of H-Class planets in the Calvatian Galaxy, and the Kalin and Tar’ri also began collecting cyrillium and transporting it back to their homeworlds in the same galaxy. Tensions escalated when a Kalin ship passed through the wormhole into the Agaricalis system, leading to the destruction of the original wormhole by the Muscarian Central Authority to fortify their control of the wormhole connecting Agricalis to Calvatia."
                 },
                 {
                     "id": "game-details-2",
-                    "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500 when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap electro typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+                    "desc": "The Kalin retaliated by destroying the Muscarian wormhole, cutting off the Muscarians' home world from cyrillium deliveries. This led to decades of conflict and bloodshed between the Muscarians and the Kalin, until a ceasefire was established, and a laissez-faire approach was adopted. Only a select number of protected sectors remained under the control of the Central Authority, while privately funded Justice Centers managed individual complaints. The Tar’ri took advantage of the conflict to establish trading routes and outposts, while the Vedic settled into their confinement."
+                },
+                {
+                    "id": "game-details-3",
+                    "desc": "Today, all races coexist in the quadrant, with a mixture of conflict and alliances. The Kalin formed clans, traded with Tar’ri, collaborated with Vedic, and tolerated Muskies in their pursuit to establish dynasties in their new Calvatian home. As a player in this strange new world, you set out to carve out a piece for yourself, develop and protect it for future generations, and reign destruction on your enemies. The Calvatian Galaxy is waiting for you to explore and build your legacy amidst the ongoing conflicts between different races."
                 }
             ]
         },
@@ -72,22 +80,26 @@
             "items": [
                 {
                     "id": "game-details-1",
-                    "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500 when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap electro typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+                    "desc": "Cosmic Horizon is a game where players start at a Star Mall and equip a ship with $COHO, the in-game currency, to explore the vast galaxy. As they travel to new sectors, their ship's navigational computer logs their path and gradually constructs a cosmic map. Players can discover profitable outposts and strategically significant sectors to trade with and defend through exploration, an important aspect of the gameplay."
                 },
                 {
                     "id": "game-details-2",
-                    "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500 when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap electro typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+                    "desc": "Players can dock with outposts to purchase or sell commodities. Outposts value commodities differently based on their unique supply and demand, offering an opportunity for strategic buying and selling of goods. Celestial arbitrage, the process of buying and selling commodities between ports, enables players to earn a profit, which can be utilized in-game or withdrawn and turned into $QWOYN tokens. If players discover a planet, they may claim and develop it, using colonists and commodities to upgrade it for profit. Upgraded planets play a significant strategic role, as they can be fortified with shields and atmospheric defenses."
+                },
+                {
+                    "id": "game-details-3",
+                    "desc": "Players can attack, ignore or collaborate with other players. Collaboration occurs informally or by forming a syndicate, where players can collectively hold and manage planets, funds, commodities, and strategic defenses. The ultimate goal of the game is to earn funds and conquer the galaxy by purchasing better ships, upgrading planets, and developing an arsenal to dominate the Calvatian galaxy. Greater resources allow players to control more space, which in turn opens up new opportunities for commerce."
                 }
             ]
         },
         {
             "id": "game-details-per-whats-new",
             "section": "game-details-per-whats-new",
-            "headings": [{ "content": "WHAT’S NEW!" }],
+            "headings": [{ "content": "BLOCKCHAIN BENEFITS" }],
             "items": [
                 {
                     "id": "game-details-1",
-                    "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500 when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap electro typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+                    "desc": "Cosmic Horizon is a multiplayer game that aims to combine traditional and blockchain gaming. It will use Cosmos SDK as the basis of its blockchain, with additional custom modules to enhance gameplay. The game will also utilize the ecocredit module from Regen Network's blockchain, allowing players to contribute to positive ecological outcomes. In-game currency $COHO can be traded for $QWOYN, the native coin of Qwoyn Studio, through blockchain technology. The studio plans to continue partnering with other projects and adopting advantageous technology to support the development and success of Cosmic Horizon."
                 }
             ]
         },
@@ -97,11 +109,11 @@
             "items": [
                 {
                     "id": "game-details-1",
-                    "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500 when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap electro typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+                    "desc": "Cosmic Horizon is an independent, application-specific blockchain built on the Cosmos SDK. This software development kit is being utilized as the starting point for the blockchain, including but not limited to, the basic modules contained within it. The underlying technology is then bolstered with various Go modules, such as Cosmos SDK Groups Module, which allows nested governance within the chain and provides more robust gameplay. Additionally, custom modules have been developed to enable a wide array of Cosmic Horizon-specific game mechanics. As described above, the ecocredits module from Regen Network will also be utilized within the stack. This will allow the Cosmic Horizon game to have a real-world impact by providing players with the opportunity to contribute to positive ecological outcomes during their adventure."
                 },
                 {
                     "id": "game-details-2",
-                    "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500 when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap electro recently with desktop publishing software like including versions."
+                    "desc": "The in-game experience will include dynamic gameplay and immersive 3D environments powered by Unreal Engine. The Star Mall and other planet experiences are meant to simulate a community-based approach where players may interact with each other on a more personal level by voice chatting, making alliances and selling items to one another in real-time."
                 }
             ]
         }
