@@ -1,6 +1,6 @@
 {
     "id": "game-03",
-    "title": "Cosmic Horizon - Finite Wormhole",
+    "title": "Cosmic Horizon - Cosmic Fury",
     "gameThum": {
         "src": "../../data/images/game/game-details-thumb.webp",
         "alt": "Anonymous"
@@ -42,11 +42,11 @@
             "items": [
                 {
                     "id": "game-details-1",
-                    "desc": "Cosmic Horizon: Finite Wormhole is a digital collectible card game set in the Calvatian Galaxy, where players battle for control of the stars. The game's backstory revolves around the discovery of cyrillium, a powerful new power source that revolutionized space travel, and the subsequent colonization of H-Class planets in the Calvatian Galaxy by various races. As a player, you take on the role of a commander of a fleet of ships, leading them into battle against rival players."
+                    "desc": "Cosmic Horizon: Cosmic Fury is a digital collectible card game set in the Calvatian Galaxy, where players battle for control of the stars. The game's backstory revolves around the discovery of cyrillium, a powerful new power source that revolutionized space travel, and the subsequent colonization of H-Class planets in the Calvatian Galaxy by various races. As a player, you take on the role of a commander of a fleet of ships, leading them into battle against rival players."
                 },
                 {
                     "id": "game-details-2",
-                    "desc": "In Cosmic Horizon: Finite Wormhole, players collect and build decks of cards that represent their fleet of ships, as well as special weapons, shields, and abilities. Each card represents a different ship or item, with its own unique characteristics and abilities. Players can acquire new cards by purchasing booster packs or trading with other players."
+                    "desc": "In Cosmic Horizon: Cosmic Fury, players collect and build decks of cards that represent their fleet of ships, as well as special weapons, shields, and abilities. Each card represents a different ship or item, with its own unique characteristics and abilities. Players can acquire new cards by purchasing booster packs or trading with other players."
                 },
                 {
                     "id": "game-details-3",
@@ -60,7 +60,7 @@
             "items": [
                 {
                     "id": "game-details-1",
-                    "desc": "Cosmic Horizon: Finite Wormhole features a variety of game modes, including multiplayer battles, single-player campaigns, and cooperative play. In multiplayer battles, players face off against one another, each striving to destroy their opponent's fleet. In single-player campaigns, players embark on a series of missions, battling against a variety of enemies to unlock new cards and rewards. Cooperative play allows players to team up with others to take on challenges together."
+                    "desc": "Cosmic Horizon: Cosmic Fury features a variety of game modes, including multiplayer battles, single-player campaigns, and cooperative play. In multiplayer battles, players face off against one another, each striving to destroy their opponent's fleet. In single-player campaigns, players embark on a series of missions, battling against a variety of enemies to unlock new cards and rewards. Cooperative play allows players to team up with others to take on challenges together."
                 },
                 {
                     "id": "game-details-2",
@@ -68,7 +68,7 @@
                 },
                 {
                     "id": "game-details-3",
-                    "desc": "Cosmic Horizon: Finite Wormhole features a variety of card rarities, from common to legendary. Each card's rarity determines its value on the market, with rare and legendary cards commanding higher prices. Players can trade their cards with others to acquire new ones or to make a profit."
+                    "desc": "Cosmic Horizon: Cosmic Fury features a variety of card rarities, from common to legendary. Each card's rarity determines its value on the market, with rare and legendary cards commanding higher prices. Players can trade their cards with others to acquire new ones or to make a profit."
                 }
             ]
         },
@@ -82,7 +82,7 @@
                 },
                 {
                     "id": "game-details-2",
-                    "desc": "Overall, Cosmic Horizon: Finite Wormhole is an engaging and immersive digital collectible card game that provides a fresh take on the genre. Its strategic gameplay, diverse game modes, and stunning artwork make it a game that players can enjoy for hours on end. And with its blockchain-based economy, players can earn real-world value for their in-game efforts, adding an exciting new dimension to the game."
+                    "desc": "Overall, Cosmic Horizon: Cosmic Fury is an engaging and immersive digital collectible card game that provides a fresh take on the genre. Its strategic gameplay, diverse game modes, and stunning artwork make it a game that players can enjoy for hours on end. And with its blockchain-based economy, players can earn real-world value for their in-game efforts, adding an exciting new dimension to the game."
                 },
                 {
                     "id": "game-details-3",
