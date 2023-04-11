@@ -1,0 +1,122 @@
+{
+    "id": "game-01",
+    "title": "Cosmic Horizon - Beyond the Horizon",
+    "gameThum": {
+        "src": "../../data/images/game/game-details-thumb.webp",
+        "alt": "Anonymous"
+    },
+    "categories": ["Strategy", "Farming"],
+    "date": "2023-09-02 13:01:00",
+    "updated": "2021-01-02",
+    "size": "98MB",
+    "installs": "80,000,000+",
+    "currentVersion": "03.00.28.00.00",
+    "inAppProducts": "$0.85 - $985.00",
+    "is_featured": true,
+    "quoteText": "Farm your way to glory",
+    "images": [
+        {
+            "src": "../../data/images/game/game-details-thumb.webp",
+            "alt": "Games Details"
+        },
+        {
+            "src": "../../data/images/game/game-details-thumb.webp",
+            "alt": "Games Details"
+        },
+        {
+            "src": "../../data/images/game/game-details-thumb.webp",
+            "alt": "Games Details"
+        }
+    ],
+    "buttons": [
+        {
+            "id": 1,
+            "size": "lg",
+            "content": "Game Details"
+        }
+    ],
+    "content": [
+        {
+            "id": "game-details-per-one",
+            "section": "game-details-per-one",
+            "items": [
+                {
+                    "id": "game-details-1",
+                    "desc": "Cosmic Horizon: Galactic Harvest is a farming game set in the Calvatian Galaxy, where players start on a unique planet NFT that they have purchased from the marketplace. The game's backstory revolves around the discovery of cyrillium, a powerful new power source that revolutionized space travel, and the subsequent colonization of H-Class planets in the Calvatian Galaxy by various races. Players take on the role of a cyrillium farmer, tasked with cultivating and selling the valuable resource to build their fortune."
+                },
+                {
+                    "id": "game-details-2",
+                    "desc": "In Cosmic Horizon: Galactic Harvest, players do not navigate sectors or discover new planets. Instead, they focus on managing and expanding their cyrillium production. Players start with a small plot of land on their planet NFT and must cultivate special plants that produce cyrillium. As they progress, they can expand their operations by purchasing additional plots of land, upgrading their equipment, and increasing their production capacity."
+                },
+                {
+                    "id": "game-details-3",
+                    "desc": "To produce cyrillium, players must manage a variety of factors, such as the amount of water and sunlight their plants receive, and the quality of the soil they use. By taking care of their plants and investing in upgrades, players can produce higher quality cyrillium, which fetches a higher price on the market. As players earn more $COHO, the in-game currency, they can purchase additional equipment and resources to expand their operations further."
+                }
+            ]
+        },
+        {
+            "id": "game-details-per-two",
+            "section": "game-details-per-two",
+            "items": [
+                {
+                    "id": "game-details-1",
+                    "desc": "Cosmic Horizon: Galactic Harvest features a top-down 2D environment, with players viewing their planet from a bird's eye view. The game's graphics are simple but charming, with brightly colored plants and buildings dotting the landscape. The game's user interface is also straightforward, making it easy for players to manage their operations and resources."
+                },
+                {
+                    "id": "game-details-2",
+                    "desc": "While players do not interact directly with one another in Cosmic Horizon: Galactic Harvest, they can still interact indirectly by collaborating or competing in various ways. For example, players can form syndicates to pool their resources and work together to dominate the cyrillium market. Alternatively, players can engage in cutthroat competition, sabotaging their rivals to get ahead. The game's strategic elements add a layer of complexity to the gameplay, requiring players to balance their production and defense against rival players."
+                },
+                {
+                    "id": "game-details-3",
+                    "desc": "In addition to managing their operations, players can also explore and develop their planet to uncover new resources and secrets. For example, players may encounter rare cyrillium strains that are worth more than the standard cyrillium plants. By cultivating and selling these rare strains, players can earn more $COHO."
+                }
+            ]
+        },
+        {
+            "id": "game-details-per-three",
+            "section": "game-details-per-three",
+            "items": [
+                {
+                    "id": "game-details-1",
+                    "desc": "To succeed in Cosmic Horizon: Galactic Harvest, players must also defend their operations against attacks from rival players. The game's defense elements require players to invest in shields and other defensive measures to protect their operations from sabotage. The game's strategic elements add a layer of complexity to the gameplay, requiring players to balance their production and defense against rival players."
+                },
+                {
+                    "id": "game-details-2",
+                    "desc": "Cosmic Horizon: Galactic Harvest utilizes blockchain technology, with Cosmos SDK as the basis of its blockchain and additional custom modules to enhance gameplay. In-game currency $COHO can be traded for $QWOYN, the native coin of Qwoyn Studios, through blockchain technology. Players can also contribute to positive ecological outcomes through the ecocredit module from Regen Network"
+                },
+                {
+                    "id": "game-details-3",
+                    "desc": "The game's marketplace offers a variety of planet NFTs for players to choose from, each with unique characteristics and resources. Players can carefully select the planet that best suits their playstyle and strategy, with some planets providing better soil quality or more abundant water sources. This aspect of the game adds an element of choice and customization, allowing players to tailor their experience to their liking."
+                }
+            ]
+        },
+        {
+            "id": "game-details-per-whats-new",
+            "section": "game-details-per-whats-new",
+            "items": [
+                {
+                    "id": "game-details-1",
+                    "desc": "As players progress, they can purchase additional equipment and upgrades to improve their operations. Upgrades range from improved irrigation systems to larger production buildings, which enable players to produce more cyrillium and increase their profits. This progression system incentivizes players to continue expanding their operations, providing a sense of achievement and reward."
+                }
+            ]
+        },
+        {
+            "id": "game-details-per-04",
+            "section": "game-details-per-04",
+            "items": [
+                {
+                    "id": "game-details-1",
+                    "desc": "Achievements and bonuses also play a role in the game, providing players with additional goals to strive for. Achievements are awarded for completing specific milestones or reaching certain production levels, while bonuses can include exclusive equipment or access to rare cyrillium strains. These rewards encourage players to keep playing and improving their operations."
+                },
+                {
+                    "id": "game-details-2",
+                    "desc": "The game's ecosystem is supported by blockchain technology, which offers a secure and transparent platform for buying, selling, and trading cyrillium. This blockchain-based economy enables players to earn real-world value for their in-game efforts and assets, creating a more immersive and rewarding experience."
+                },
+                {
+                    "id": "game-details-3",
+                    "desc": "Cosmic Horizon: Galactic Harvest's focus on strategic gameplay and resource management makes for a unique and engaging experience. The game's charming graphics and user interface are simple and accessible, making it easy for players of all skill levels to jump in and start playing. However, the game's depth and complexity provide a challenge for more experienced gamers, offering something for everyone. Overall, Cosmic Horizon: Galactic Frontier is an engaging and immersive game that provides a refreshing take on the farming game genre. Its focus on cyrillium production and strategic gameplay offers a unique experience for players, while the game's progression system and blockchain-based economy create a sense of achievement and reward. With its simple yet charming graphics and user interface, the game is accessible to players of all skill levels, making it a game that everyone can enjoy."
+                }
+            ]
+        }
+    ]
+}
