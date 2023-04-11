@@ -1,0 +1,94 @@
+{
+    "id": "game-03",
+    "title": "Cosmic Horizon - Finite Wormhole",
+    "gameThum": {
+        "src": "../../data/images/game/game-details-thumb.webp",
+        "alt": "Anonymous"
+    },
+    "categories": ["Collectible", "Card Game"],
+    "date": "2023-09-02 13:01:00",
+    "updated": "2021-01-02",
+    "size": "98MB",
+    "installs": "80,000,000+",
+    "currentVersion": "03.00.28.00.00",
+    "inAppProducts": "$0.85 - $985.00",
+    "is_featured": true,
+    "quoteText": "Use your wits and challenge your friends",
+    "images": [
+        {
+            "src": "../../data/images/game/game-details-thumb.webp",
+            "alt": "Games Details"
+        },
+        {
+            "src": "../../data/images/game/game-details-thumb.webp",
+            "alt": "Games Details"
+        },
+        {
+            "src": "../../data/images/game/game-details-thumb.webp",
+            "alt": "Games Details"
+        }
+    ],
+    "buttons": [
+        {
+            "id": 1,
+            "size": "lg",
+            "content": "Game Details"
+        }
+    ],
+    "content": [
+        {
+            "id": "game-details-per-one",
+            "section": "game-details-per-one",
+            "items": [
+                {
+                    "id": "game-details-1",
+                    "desc": "Cosmic Horizon: Finite Wormhole is a digital collectible card game set in the Calvatian Galaxy, where players battle for control of the stars. The game's backstory revolves around the discovery of cyrillium, a powerful new power source that revolutionized space travel, and the subsequent colonization of H-Class planets in the Calvatian Galaxy by various races. As a player, you take on the role of a commander of a fleet of ships, leading them into battle against rival players."
+                },
+                {
+                    "id": "game-details-2",
+                    "desc": "In Cosmic Horizon: Finite Wormhole, players collect and build decks of cards that represent their fleet of ships, as well as special weapons, shields, and abilities. Each card represents a different ship or item, with its own unique characteristics and abilities. Players can acquire new cards by purchasing booster packs or trading with other players."
+                },
+                {
+                    "id": "game-details-3",
+                    "desc": "The game's mechanics are simple yet strategic, with players deploying their cards strategically to outmaneuver and defeat their opponents. Each card has a set of attributes, such as attack power, speed, and armor, which determine its strength in battle. Players must balance offense and defense, knowing when to deploy their most powerful cards and when to hold back to protect their own ships."
+                }
+            ]
+        },
+        {
+            "id": "game-details-per-two",
+            "section": "game-details-per-two",
+            "items": [
+                {
+                    "id": "game-details-1",
+                    "desc": "Cosmic Horizon: Finite Wormhole features a variety of game modes, including multiplayer battles, single-player campaigns, and cooperative play. In multiplayer battles, players face off against one another, each striving to destroy their opponent's fleet. In single-player campaigns, players embark on a series of missions, battling against a variety of enemies to unlock new cards and rewards. Cooperative play allows players to team up with others to take on challenges together."
+                },
+                {
+                    "id": "game-details-2",
+                    "desc": "The game's ecosystem is supported by blockchain technology, which provides players with a secure and transparent platform for buying, selling, and trading cards. The game's blockchain-based economy enables players to earn real-world value for their in-game efforts and assets, creating a more immersive and rewarding experience."
+                },
+                {
+                    "id": "game-details-3",
+                    "desc": "Cosmic Horizon: Finite Wormhole features a variety of card rarities, from common to legendary. Each card's rarity determines its value on the market, with rare and legendary cards commanding higher prices. Players can trade their cards with others to acquire new ones or to make a profit."
+                }
+            ]
+        },
+        {
+            "id": "game-details-per-three",
+            "section": "game-details-per-three",
+            "items": [
+                {
+                    "id": "game-details-1",
+                    "desc": "The game's card artwork is stunning, with each card featuring intricate designs and detailed illustrations. The game's user interface is also sleek and intuitive, making it easy for players to manage their decks and engage in battles."
+                },
+                {
+                    "id": "game-details-2",
+                    "desc": "Overall, Cosmic Horizon: Finite Wormhole is an engaging and immersive digital collectible card game that provides a fresh take on the genre. Its strategic gameplay, diverse game modes, and stunning artwork make it a game that players can enjoy for hours on end. And with its blockchain-based economy, players can earn real-world value for their in-game efforts, adding an exciting new dimension to the game."
+                },
+                {
+                    "id": "game-details-3",
+                    "desc": "The game's marketplace offers a variety of planet NFTs for players to choose from, each with unique characteristics and resources. Players can carefully select the planet that best suits their playstyle and strategy, with some planets providing better soil quality or more abundant water sources. This aspect of the game adds an element of choice and customization, allowing players to tailor their experience to their liking."
+                }
+            ]
+        }
+    ]
+}

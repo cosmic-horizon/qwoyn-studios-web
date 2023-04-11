@@ -1,0 +1,90 @@
+{
+    "id": "game-04",
+    "title": "Cosmic Horizon - Cosmic Conflict",
+    "gameThum": {
+        "src": "../../data/images/game/game-details-thumb.webp",
+        "alt": "Anonymous"
+    },
+    "categories": ["Shooter", "FPS"],
+    "date": "2023-09-02 13:01:00",
+    "updated": "2021-01-02",
+    "size": "98MB",
+    "installs": "80,000,000+",
+    "currentVersion": "03.00.28.00.00",
+    "inAppProducts": "$0.85 - $985.00",
+    "is_featured": true,
+    "quoteText": "Farm your way to glory",
+    "images": [
+        {
+            "src": "../../data/images/game/game-details-thumb.webp",
+            "alt": "Games Details"
+        },
+        {
+            "src": "../../data/images/game/game-details-thumb.webp",
+            "alt": "Games Details"
+        },
+        {
+            "src": "../../data/images/game/game-details-thumb.webp",
+            "alt": "Games Details"
+        }
+    ],
+    "buttons": [
+        {
+            "id": 1,
+            "size": "lg",
+            "content": "Game Details"
+        }
+    ],
+    "content": [
+        {
+            "id": "game-details-per-one",
+            "section": "game-details-per-one",
+            "items": [
+                {
+                    "id": "game-details-1",
+                    "desc": "Cosmic Horizon: Cosmic Conflict is an intense space ship fighting game set in the Calvatian Galaxy, where players engage in fast-paced battles against one another in the depths of space. The game's backstory revolves around the discovery of cyrillium, a powerful new power source that revolutionized space travel, and the subsequent rise of intergalactic conflicts over control of cyrillium resources."
+                },
+                {
+                    "id": "game-details-2",
+                    "desc": "In Cosmic Horizon: Cosmic Conflict, players take on the role of a skilled pilot, engaging in epic battles against other players in a variety of game modes, including deathmatch, capture the flag, and team-based battles. Each player's ship is customizable, with a variety of weapons, armor, and other upgrades available to improve performance and increase combat capabilities."
+                },
+                {
+                    "id": "game-details-3",
+                    "desc": "The game's mechanics are fast and furious, with players engaging in dogfight-style battles against one another in the vast reaches of space. Players must use their ships' various weapons and abilities to outmaneuver and outgun their opponents, all while avoiding obstacles and other hazards."
+                }
+            ]
+        },
+        {
+            "id": "game-details-per-two",
+            "section": "game-details-per-two",
+            "items": [
+                {
+                    "id": "game-details-1",
+                    "desc": "Cosmic Horizon: Cosmic Conflict features a variety of game modes, including deathmatch, where players compete against one another to rack up the most kills; capture the flag, where players must capture their opponent's flag while defending their own; and team-based battles, where players work together to defeat their opponents."
+                },
+                {
+                    "id": "game-details-2",
+                    "desc": "The game's ecosystem is supported by blockchain technology, which provides players with a secure and transparent platform for buying, selling, and trading ship parts and upgrades. The game's blockchain-based economy enables players to earn real-world value for their in-game efforts and assets, creating a more immersive and rewarding experience."
+                },
+                {
+                    "id": "game-details-3",
+                    "desc": "Cosmic Horizon: Cosmic Conflict features a variety of ship parts and upgrades, with each component affecting a ship's combat capabilities. Players can purchase new parts and upgrades using in-game currency, or they can trade with other players to acquire rare and powerful components."
+                }
+            ]
+        },
+        {
+            "id": "game-details-per-three",
+            "section": "game-details-per-three",
+            "items": [
+                {
+                    "id": "game-details-1",
+                    "desc": "The game's ship designs are sleek and futuristic, with each ship featuring unique colors and designs. The game's environments are also stunning, with detailed asteroid fields, space stations, and other interstellar settings."
+                },
+                {
+                    "id": "game-details-2",
+                    "desc": "Overall, Cosmic Horizon: Cosmic Conflict is an intense and action-packed space ship fighting game that provides a unique and exciting experience for players. With its customizable ships, challenging game modes, and engaging combat mechanics, the game is sure to keep players on the edge of their seats. And with its blockchain-based economy, players can earn real-world value for their in-game efforts, adding an exciting new dimension to the game."
+                }
+            ]
+        }
+    ]
+}
