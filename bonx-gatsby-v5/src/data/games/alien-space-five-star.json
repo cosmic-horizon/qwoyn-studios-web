@@ -2,7 +2,7 @@
     "id": "game-01",
     "title": "Cosmic Horizon - CONQUEST",
     "gameThum": {
-        "src": "../../data/images/game/game-details-thumb.webp",
+        "src": "../../data/images/game/conquest.webp",
         "alt": "Anonymous"
     },
     "categories": ["Strategy", "MMORPG"],
@@ -16,15 +16,15 @@
     "quoteText": "Experience Celestial Arbitrage",
     "images": [
         {
-            "src": "../../data/images/game/game-details-thumb.webp",
+            "src": "../../data/images/game/conquest.webp",
             "alt": "Games Details"
         },
         {
-            "src": "../../data/images/game/game-details-thumb.webp",
+            "src": "../../data/images/game/conquest.webp",
             "alt": "Games Details"
         },
         {
-            "src": "../../data/images/game/game-details-thumb.webp",
+            "src": "../../data/images/game/conquest.webp",
             "alt": "Games Details"
         }
     ],

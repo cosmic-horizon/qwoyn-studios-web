@@ -2,7 +2,7 @@
     "id": "game-04",
     "title": "Cosmic Horizon - Cosmic Conflict",
     "gameThum": {
-        "src": "../../data/images/game/game-details-thumb.webp",
+        "src": "../../data/images/game/cosmicconflict.webp",
         "alt": "Anonymous"
     },
     "categories": ["Shooter", "FPS"],
@@ -16,15 +16,15 @@
     "quoteText": "Farm your way to glory",
     "images": [
         {
-            "src": "../../data/images/game/game-details-thumb.webp",
+            "src": "../../data/images/game/cosmicconflict.webp",
             "alt": "Games Details"
         },
         {
-            "src": "../../data/images/game/game-details-thumb.webp",
+            "src": "../../data/images/game/cosmicconflict.webp",
             "alt": "Games Details"
         },
         {
-            "src": "../../data/images/game/game-details-thumb.webp",
+            "src": "../../data/images/game/cosmicconflict.webp",
             "alt": "Games Details"
         }
     ],

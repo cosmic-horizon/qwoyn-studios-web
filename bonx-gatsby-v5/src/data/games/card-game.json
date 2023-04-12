@@ -2,7 +2,7 @@
     "id": "game-03",
     "title": "Cosmic Horizon - Cosmic Fury",
     "gameThum": {
-        "src": "../../data/images/game/game-details-thumb.webp",
+        "src": "../../data/images/game/cosmicfury.webp",
         "alt": "Anonymous"
     },
     "categories": ["Collectible", "Card Game"],
@@ -16,15 +16,15 @@
     "quoteText": "Use your wits and challenge your friends",
     "images": [
         {
-            "src": "../../data/images/game/game-details-thumb.webp",
+            "src": "../../data/images/game/cosmicfury.webp",
             "alt": "Games Details"
         },
         {
-            "src": "../../data/images/game/game-details-thumb.webp",
+            "src": "../../data/images/game/cosmicfury.webp",
             "alt": "Games Details"
         },
         {
-            "src": "../../data/images/game/game-details-thumb.webp",
+            "src": "../../data/images/game/cosmicfury.webp",
             "alt": "Games Details"
         }
     ],
