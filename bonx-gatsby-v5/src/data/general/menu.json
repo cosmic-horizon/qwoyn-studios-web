@@ -13,19 +13,19 @@
             "link": "/",
             "submenu": [
                 {
+                    "id": "menu-32",
+                    "text": "Games",
+                    "link": "/games"
+                },
+                {
                     "id": "menu-31",
-                    "text": "About Us Page",
+                    "text": "About Us",
                     "link": "/about-us"
                 },
                 {
                     "id": "menu-33",
-                    "text": "FAQ's Page",
+                    "text": "FAQ",
                     "link": "/faq"
-                },
-                {
-                    "id": "menu-32",
-                    "text": "Games Page",
-                    "link": "/games"
                 }
             ]
         },
