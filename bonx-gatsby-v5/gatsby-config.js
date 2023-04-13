@@ -14,7 +14,7 @@ module.exports = {
         author: config.author,
         mainUrl: config.siteUrl,
         siteUrl:
-            activeEnv === "development"
+            activeEnv === "production"
                 ? config.localUrl
                 : `${config.siteUrl}${config.pathPrefix}`,
         canonical: config.canonical,
