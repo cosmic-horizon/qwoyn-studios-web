@@ -2,7 +2,7 @@
     "id": "game-04",
     "title": "Cosmic Horizon - Cosmic Conflict",
     "gameThum": {
-        "src": "../../data/images/game/cosmicconflict.webp",
+        "src": "../../data/images/game/cosmiconflict.webp",
         "alt": "Anonymous"
     },
     "categories": ["Shooter", "FPS", "Planned"],
@@ -16,15 +16,15 @@
     "quoteText": "Dominate the Cosmos!",
     "images": [
         {
-            "src": "../../data/images/game/cosmicconflict.webp",
+            "src": "../../data/images/game/cosmiconflict.webp",
             "alt": "Games Details"
         },
         {
-            "src": "../../data/images/game/cosmicconflict.webp",
+            "src": "../../data/images/game/cosmiconflict.webp",
             "alt": "Games Details"
         },
         {
-            "src": "../../data/images/game/cosmicconflict.webp",
+            "src": "../../data/images/game/cosmiconflict.webp",
             "alt": "Games Details"
         }
     ],
