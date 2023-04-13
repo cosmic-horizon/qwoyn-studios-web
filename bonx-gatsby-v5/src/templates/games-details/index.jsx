@@ -135,7 +135,7 @@ const GamesDetails = ({ data, location, pageContext }) => {
                                         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-5 gap-5">
                                             <div className="additional_information_text">
                                                 <h4 className="font-bold mb-5">
-                                                    Updated:
+                                                    STATUS:
                                                 </h4>
                                                 <span>
                                                     {data?.games?.updated}
@@ -143,13 +143,13 @@ const GamesDetails = ({ data, location, pageContext }) => {
                                             </div>
                                             <div className="additional_information_text">
                                                 <h4 className="font-bold mb-5">
-                                                    SIZE:
+                                                    BADGE REQUIREMENT:
                                                 </h4>
                                                 <span>{data?.games?.size}</span>
                                             </div>
                                             <div className="additional_information_text">
                                                 <h4 className="font-bold mb-5">
-                                                    INSTALLS:
+                                                    TYPE:
                                                 </h4>
                                                 <span>
                                                     {data?.games?.installs}
@@ -157,7 +157,7 @@ const GamesDetails = ({ data, location, pageContext }) => {
                                             </div>
                                             <div className="additional_information_text">
                                                 <h4 className="font-bold mb-5">
-                                                    CURRENT VERSION:
+                                                    EXPECTED RELEASE DATE:
                                                 </h4>
                                                 <span>
                                                     {
@@ -168,7 +168,7 @@ const GamesDetails = ({ data, location, pageContext }) => {
                                             </div>
                                             <div className="additional_information_text">
                                                 <h4 className="font-bold mb-5">
-                                                    IN-APP PRODUCTS:
+                                                    IN-APP PURCHASES:
                                                 </h4>
                                                 <span>
                                                     {data?.games?.inAppProducts}

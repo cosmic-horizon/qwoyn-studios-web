@@ -5,15 +5,15 @@
         "src": "../../data/images/game/cosmicvelocity.webp",
         "alt": "Anonymous"
     },
-    "categories": ["Collectibles", "Racing"],
+    "categories": ["Collectibles", "Racing", "Planned"],
     "date": "2023-09-02 13:01:00",
-    "updated": "2021-01-02",
-    "size": "98MB",
-    "installs": "80,000,000+",
-    "currentVersion": "03.00.28.00.00",
-    "inAppProducts": "$0.85 - $985.00",
+    "updated": "Concept",
+    "size": "Racer",
+    "installs": "Strategy MMORPG",
+    "currentVersion": "2024",
+    "inAppProducts": "Yes",
     "is_featured": true,
-    "quoteText": "Farm your way to glory",
+    "quoteText": "Speed through the Cosmos!",
     "images": [
         {
             "src": "../../data/images/game/cosmicvelocity.webp",
