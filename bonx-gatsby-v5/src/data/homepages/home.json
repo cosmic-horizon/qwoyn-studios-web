@@ -21,7 +21,8 @@
                     "id": 1,
                     "size": "lg",
                     "path": "/about-us",
-                    "content": "BUY QWOYN"
+                    "content": "BUY QWOYN (Coming Soon)",
+                    "tooltip": "Coming Soon"
                 }
             ]
         },
