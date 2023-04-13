@@ -8,24 +8,12 @@
             "socials": [
                 {
                     "id": 1,
-                    "icon": "icofont-discord",
-                    "link": "https://discord.gg/Qp7Taz6W4Y",
-                    "title": "discord"
-                },
-                {
-                    "id": 2,
-                    "icon": "icofont-medium",
-                    "link": "https://medium.com",
-                    "title": "medium"
-                },
-                {
-                    "id": 3,
                     "icon": "icofont-youtube-play",
                     "link": "https://www.youtube.com/cosmic-horizon",
                     "title": "youtube"
                 },
                 {
-                    "id": 4,
+                    "id": 2,
                     "icon": "icofont-twitter",
                     "link": "https://www.twitter.com/Qwoyn_Studios",
                     "title": "twitter"
@@ -84,28 +72,28 @@
             "list": [
                 {
                     "id": "footer-follow-01",
-                    "text": "Copywriting",
-                    "link": "https://dribbble.com"
+                    "text": "Discord",
+                    "link": "https://discord.gg/Qp7Taz6W4Y"
                 },
                 {
                     "id": "footer-follow-02",
-                    "text": "Social Media",
-                    "link": "https://dribbble.com"
+                    "text": "Twitter",
+                    "link": "https://twitter.com/Qwoyn_Studios"
                 },
                 {
                     "id": "footer-follow-03",
-                    "text": "Interactive Media",
-                    "link": "https://dribbble.com"
+                    "text": "YouTube",
+                    "link": "https://www.youtube.com/cosmic-horizon"
                 },
                 {
                     "id": "footer-follow-04",
-                    "text": "Motion Design",
-                    "link": "https://dribbble.com"
+                    "text": "Ambassadors",
+                    "link": "https://zealy.io/c/cosmic-horizon/questboard"
                 },
                 {
                     "id": "footer-follow-05",
-                    "text": "Illustration",
-                    "link": "https://dribbble.com"
+                    "text": "Medium",
+                    "link": "https://medium.com/@CosmicHorizon"
                 }
             ]
         }
