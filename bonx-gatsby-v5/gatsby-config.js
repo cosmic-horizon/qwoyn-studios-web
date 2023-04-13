@@ -1,7 +1,7 @@
 /* eslint-disable prettier/prettier */
 const config = require("./config/config");
 const activeEnv =
-    process.env.GATSBY_ACTIVE_ENV || process.env.NODE_ENV || "development";
+    process.env.GATSBY_ACTIVE_ENV || process.env.NODE_ENV || "production";
 
 module.exports = {
     pathPrefix: config.pathPrefix,
