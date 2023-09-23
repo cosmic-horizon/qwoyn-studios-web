@@ -6,6 +6,7 @@ const _ = require("lodash");
 const onCreateNode = require("./src/gatsby-utils/onCreateNode");
 const createSchemaCustomization = require("./src/gatsby-utils/createSchemaCustomization");
 const createResolvers = require("./src/gatsby-utils/createResolvers");
+const fs = require("fs")
 
 //remove if error
 exports.onPreInit = () => {
