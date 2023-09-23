@@ -20,7 +20,7 @@ module.exports = {
     canonical: "",
     social: {
         facebook: "https://www.facebook.com/",
-        twitter: "https://twitter.com/",
+        twitter: "https://twitter.com/Qwoyn_Studios",
         linkedin: "https://www.linkedin.com",
     },
     siteLanguage: "en",
