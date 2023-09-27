@@ -11,70 +11,100 @@
                     "headings": [
                         {
                             "level": "h3",
-                            "content": "HOW CAN I CONTACT THE TEAM FOR HELP?"
+                            "content": "What is Qwoyn Studios?"
                         }
                     ],
-                    "description": "Members of our team are always available on our Discord."
+                    "description": "Qwoyn Studios is a pioneering blockchain development studio specializing in merging blockchain technology with gaming, offering innovative products within the Cosmos ecosystem."
                 },
                 {
                     "id": "FAQ-02",
                     "headings": [
                         {
                             "level": "h3",
-                            "content": "When is Qwoyn Network Launching?"
+                            "content": "What is Qwoyn Network?"
                         }
                     ],
-                    "description": "Our tentative blockchain launch date is set for May 15, 2023."
+                    "description": "Qwoyn Network is a blockchain platform within the Cosmos ecosystem, providing inter-blockchain communication and enabling secure in-game economic interactions."
                 },
                 {
                     "id": "FAQ-03",
                     "headings": [
                         {
                             "level": "h3",
-                            "content": "What current projects is Qwoyn Studios working on?"
+                            "content": "Tell me more about Cosmic Horizon: Dominions."
                         }
                     ],
-                    "description": "Our latest project is Cosmic Horizon, a play-and-earn strategy space-trading/conquest MMRPG, developed by Qwoyn Studios and powered by the Cosmos SDK. Cosmic Horizon takes inspiration from adventure and strategy games of the 1990s and updates the established concepts with a modern blockchain-based approach. The core elements of the game consist of the Universe (divided into thousands of individual sectors) and the elements within it, namely: Players, Ships, Planets (including special planets) and Ports (including special ports). Players will interact with the world and one another to gain resources and exert control over sections of the universe.."
+                    "description": "Cosmic Horizon: Dominions is a space trading hybrid game developed by Qwoyn Studios, combining elements from various genres and offering a vast interconnected virtual universe for players to explore."
                 },
                 {
                     "id": "FAQ-04",
                     "headings": [
                         {
                             "level": "h3",
-                            "content": "Are there any expansion packs on the way?"
+                            "content": "What is the unique advantage of Qwoyn Network?"
                         }
                     ],
-                    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been industry standard unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five reIcentem with desktop publishing softwa like including versions has been industry standard unknown printer took a galley of type and scramIblrd it to make a type specimen book ha with desktop publishing software like including versions."
+                    "description": "Qwoyn Network stands out for its incorporation of smart contract capabilities, facilitating secure in-game economic interactions and robust governance through the Groups module."
                 },
                 {
                     "id": "FAQ-05",
                     "headings": [
                         {
                             "level": "h3",
-                            "content": "Where can I find the items so that I can print them again?"
+                            "content": "How can I participate in the Qwoyn Network community?"
                         }
                     ],
-                    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been industry standard unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five reIcentem with desktop publishing softwa like including versions has been industry standard unknown printer took a galley of type and scramIblrd it to make a type specimen book ha with desktop publishing software like including versions."
+                    "description": "LYou can join the Qwoyn Network community by engaging with their Discord and Telegram channels, where you can connect with other enthusiasts and developers."
                 },
                 {
                     "id": "FAQ-06",
                     "headings": [
                         {
                             "level": "h3",
-                            "content": "When I enter a correct code it says that it’s incorrect"
+                            "content": "How does Qwoyn Studios plan to generate revenue?"
                         }
                     ],
-                    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been industry standard unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five reIcentem with desktop publishing softwa like including versions has been industry standard unknown printer took a galley of type and scramIblrd it to make a type specimen book ha with desktop publishing software like including versions."
+                    "description": "Qwoyn Studios has a diverse revenue model, including in-game purchases, NFT sales, Lanosporum transactions, and licensing/franchising opportunities."
                 },
                 {
                     "id": "FAQ-07",
                     "headings": [
                         {
                             "level": "h3",
-                            "content": "Is it possible to pause the bonx tournament?"
+                            "content": "Can I create my own games within the Qwoyn ecosystem?"
                         }
                     ],
-                    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been industry standard unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five reIcentem with desktop publishing softwa like including versions has been industry standard unknown printer took a galley of type and scramIblrd it to make a type specimen book ha with desktop publishing software like including versions."
+                    "description": "Yes, aspiring developers can leverage Qwoyn Studios' gaming model and blockchain infrastructure to create their own immersive gaming experiences within the ecosystem."
+                },
+                {
+                    "id": "FAQ-08",
+                    "headings": [
+                        {
+                            "level": "h3",
+                            "content": "What is the roadmap for Qwoyn Studios and its projects?"
+                        }
+                    ],
+                    "description": "Qwoyn Studios has achieved significant milestones and continues to expand its product offerings. Refer to their milestones section for a detailed roadmap."
+                },
+                {
+                    "id": "FAQ-09",
+                    "headings": [
+                        {
+                            "level": "h3",
+                            "content": "How can I get involved as a developer with Qwoyn Studios?"
+                        }
+                    ],
+                    "description": "ou can explore developer opportunities and engage with the studio by joining their Discord community and exploring collaboration possibilities."
+                },
+                {
+                    "id": "FAQ-10",
+                    "headings": [
+                        {
+                            "level": "h3",
+                            "content": "What sets Qwoyn Studios apart from other blockchain gaming companies?"
+                        }
+                    ],
+                    "description": "Qwoyn Studios differentiates itself by prioritizing enjoyable gameplay experiences while incorporating blockchain technology, bridging the gap between traditional gaming and Web3 capabilities."
                 }
             ]
         }

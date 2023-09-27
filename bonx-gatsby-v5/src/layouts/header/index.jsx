@@ -39,11 +39,11 @@ const Header = ({ data }) => {
                         <MainMenu allmenuData={data?.menu} />
                         <div className="header-right-action flex items-center">
                             <Button
-                                path="https://dashboard.qwoyn.studio/"
+                                path="https://explorer.theamsolutions.info/qwoyn-main/"
                                 shape="square2xl"
                                 className="text-white hidden xs:block"
                             >
-                                Qwoyn Dashboard
+                                Qwoyn Explorer
                             </Button>
                             <button
                                 onClick={ofcanvasHandaler}
