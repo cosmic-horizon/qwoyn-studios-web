@@ -5,11 +5,7 @@ import Layout from "@layout";
 import { graphql } from "gatsby";
 import { normalizedData } from "@utils/functions";
 import PageBreadcrumb from "../components/pagebreadcrumb";
-import FunfactArea from "../container/home/funfact";
-import TestimonialArea from "../container/home/testimonial";
-import WatchLiveStremingArea from "../container/home/watch-live-streaming";
 import AboutUsOurStudioArea from "../container/about-us/about-us-our-studio";
-import OurTeamsArea from "../container/about-us/our-teams";
 
 const MatchPage = ({ data, location, pageContext }) => {
     const globalContent = normalizedData(data?.allGeneral?.nodes || []);
@@ -28,10 +24,6 @@ const MatchPage = ({ data, location, pageContext }) => {
                 title="About Us"
             />
             <AboutUsOurStudioArea data={content["our-studio-section"]} />
-            {/*<FunfactArea data={content["funfact-section"]} />
-            <WatchLiveStremingArea data={{ items: data.allMatch.nodes }} />
-            <OurTeamsArea data={content["our-team-section"]} />
-            <TestimonialArea data={content["testimonial-section"]} />*/}
         </Layout>
     );
 };

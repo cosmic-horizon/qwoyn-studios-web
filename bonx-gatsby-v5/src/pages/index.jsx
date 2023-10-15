@@ -32,7 +32,7 @@ const IndexPage = ({ data }) => {
                     ...content["upcoming-match"],
                     items: data.allMatch.nodes,
                 }}
-            />
+            />*/}
             <FunfactArea data={content["funfact-section"]} />
             <PopulerGamesArea
                 data={{
@@ -40,7 +40,7 @@ const IndexPage = ({ data }) => {
                     items: data.allGames.nodes,
                 }}
             />
-            <TestimonialArea data={content["testimonial-section"]} />
+            {/*<TestimonialArea data={content["testimonial-section"]} />
             <LatestBlogArea
                 data={{
                     ...content["latest-section"],
