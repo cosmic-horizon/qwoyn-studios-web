@@ -235,7 +235,7 @@
                     "id": "testimonial-01",
                     "images": [
                         {
-                            "src": "../../data/images/testimonial/testimonial-thumb.webp",
+                            "src": "../../data/images/testimonial/agoric.png",
                             "alt": "Agoric"
                         }
                     ],
@@ -247,7 +247,7 @@
                     "id": "testimonial-02",
                     "images": [
                         {
-                            "src": "../../data/images/testimonial/testimonial-thumb.webp",
+                            "src": "../../data/images/testimonial/bluship.svg",
                             "alt": "Bluship"
                         }
                     ],
@@ -259,7 +259,7 @@
                     "id": "testimonial-03",
                     "images": [
                         {
-                            "src": "../../data/images/testimonial/testimonial-thumb.webp",
+                            "src": "../../data/images/testimonial/biswagames.png",
                             "alt": "Biswa Games"
                         }
                     ],
@@ -271,7 +271,7 @@
                     "id": "testimonial-04",
                     "images": [
                         {
-                            "src": "../../data/images/testimonial/testimonial-thumb.webp",
+                            "src": "../../data/images/testimonial/hivekings.png",
                             "alt": "HiveKings"
                         }
                     ],
@@ -283,7 +283,7 @@
                     "id": "testimonial-05",
                     "images": [
                         {
-                            "src": "../../data/images/testimonial/testimonial-thumb.webp",
+                            "src": "../../data/images/testimonial/regen.png",
                             "alt": "Regen"
                         }
                     ],
@@ -295,7 +295,7 @@
                     "id": "testimonial-06",
                     "images": [
                         {
-                            "src": "../../data/images/testimonial/testimonial-thumb.webp",
+                            "src": "../../data/images/testimonial/saga.png",
                             "alt": "Saga"
                         }
                     ],
@@ -307,11 +307,11 @@
                     "id": "testimonial-07",
                     "images": [
                         {
-                            "src": "../../data/images/testimonial/testimonial-thumb.webp",
+                            "src": "../../data/images/testimonial/cosmostation.svg",
                             "alt": "Cosmostation"
                         }
                     ],
-                    "name": "Saga",
+                    "name": "Cosmostation",
                     "designation": "Web 3 Wallet Provider",
                     "description": "Cosmostation is a non-custodial multi-chain cryptocurrency browser extension wallet that supports 50+ chains including Ethereum, Cosmos, dYdX Chain, Sui, and more. With Cosmostation, you can manage all your assets with one wallet, one key."
                 }
