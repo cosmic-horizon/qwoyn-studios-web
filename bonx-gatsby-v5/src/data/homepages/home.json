@@ -227,7 +227,7 @@
             "section_title": {
                 "showDescription": false,
                 "align": "left",
-                "heading": "WHAT PEOPLE’S SAY ABOUT GAME STUDIO",
+                "heading": "OUR PARTNERSHIP NETWORK",
                 "description": "When unknown printer took type and scrambled it to make type specimen book centuries,"
             },
             "items": [
@@ -236,24 +236,84 @@
                     "images": [
                         {
                             "src": "../../data/images/testimonial/testimonial-thumb.webp",
-                            "alt": "Panda"
+                            "alt": "Agoric"
                         }
                     ],
-                    "name": "Randolph Frazier",
-                    "designation": "Top Rated Gamer",
-                    "description": "Lorem long established fact that a reader will be distracted the readable content of page when looking at it layout the point using lorem Ipsum is that it has a more-or-less normal distribution lette as opposed to using  making it look like readable english, many desktop publishing packages and web page now editors."
+                    "name": "Agoric",
+                    "designation": "Infrastructure Provider",
+                    "description": "Agoric is an open-source development company launching an interoperable Proof-of-Stake chain and economy. Their JavaScript-native smart contract platform offers developers a safe, reusable library of DeFi components to rapidly build and deploy on-chain."
                 },
                 {
                     "id": "testimonial-02",
                     "images": [
                         {
                             "src": "../../data/images/testimonial/testimonial-thumb.webp",
-                            "alt": "Panda"
+                            "alt": "Bluship"
                         }
                     ],
-                    "name": "Johan Puker",
-                    "designation": "Top Rated Gamer",
-                    "description": "It is a long established fact that a reader will be distracted the readable content of page when looking at it layout the point using lorem Ipsum is that it has a more-or-less normal distribution lette as opposed to using  making it look like readable english, many desktop publishing packages and web page now editors."
+                    "name": "Bluship",
+                    "designation": "Marketing Provider",
+                    "description": "Provides go-to-market strategies, growth plans, UX, branding and project management consulting to help them succeed in the constantly evolving Web3 and NFT space."
+                },
+                {
+                    "id": "testimonial-03",
+                    "images": [
+                        {
+                            "src": "../../data/images/testimonial/testimonial-thumb.webp",
+                            "alt": "Biswa Games"
+                        }
+                    ],
+                    "name": "Biswa Games",
+                    "designation": "Game Designers",
+                    "description": "Specializing in creating high quality games for Mobiles, PC,Augmented Reality and Virtual Reality. Their highly experienced programmers and artists have created numerous 3D games for mobiles(iOS, Android) with and without Virtual Reality support."
+                },
+                {
+                    "id": "testimonial-04",
+                    "images": [
+                        {
+                            "src": "../../data/images/testimonial/testimonial-thumb.webp",
+                            "alt": "HiveKings"
+                        }
+                    ],
+                    "name": "Hive Kings",
+                    "designation": "Web 3 Gaming Studio",
+                    "description": "Game development studio who manage the Hashkings game on the Hive and Qwoyn Networks."
+                },
+                {
+                    "id": "testimonial-05",
+                    "images": [
+                        {
+                            "src": "../../data/images/testimonial/testimonial-thumb.webp",
+                            "alt": "Regen"
+                        }
+                    ],
+                    "name": "Regen Network",
+                    "designation": "Sustainable Blockchain Developers",
+                    "description": "Regen Network is a company leveraging blockchain technology to incentivize and support regenerative practices in agriculture and land management, with a focus on ecological regeneration and sustainable farming. They enable the creation and trade of ecological credits, rewarding farmers and land stewards for adopting environmentally friendly practices while facilitating the restoration of ecosystems and the reduction of carbon emissions."
+                },
+                {
+                    "id": "testimonial-06",
+                    "images": [
+                        {
+                            "src": "../../data/images/testimonial/testimonial-thumb.webp",
+                            "alt": "Saga"
+                        }
+                    ],
+                    "name": "Saga",
+                    "designation": "Web 3 Gaming Ecosystem",
+                    "description": "The future is decentralized - and collaborative. Talented builders creating the next great game, entertainment experience, financial platform or community need blockchain infrastructure that is scalable, low-cost and highly-configurable. They need an ecosystem where they can dream their craziest dreams and feel loved and supported."
+                },
+                {
+                    "id": "testimonial-07",
+                    "images": [
+                        {
+                            "src": "../../data/images/testimonial/testimonial-thumb.webp",
+                            "alt": "Cosmostation"
+                        }
+                    ],
+                    "name": "Saga",
+                    "designation": "Web 3 Wallet Provider",
+                    "description": "Cosmostation is a non-custodial multi-chain cryptocurrency browser extension wallet that supports 50+ chains including Ethereum, Cosmos, dYdX Chain, Sui, and more. With Cosmostation, you can manage all your assets with one wallet, one key."
                 }
             ]
         },

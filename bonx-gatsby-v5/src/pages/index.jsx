@@ -34,19 +34,19 @@ const IndexPage = ({ data }) => {
                 }}
             />*/}
             <FunfactArea data={content["funfact-section"]} />
-            <PopulerGamesArea
+            {/*<PopulerGamesArea
                 data={{
                     ...content["populer-games-section"],
                     items: data.allGames.nodes,
                 }}
             />
-            {/*<TestimonialArea data={content["testimonial-section"]} />
             <LatestBlogArea
                 data={{
                     ...content["latest-section"],
                     items: data.latestPosts.nodes,
                 }}
             />*/}
+            <TestimonialArea data={content["testimonial-section"]} />
         </Layout>
     );
 };
