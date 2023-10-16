@@ -26,6 +26,11 @@
                     "id": "menu-33",
                     "text": "FAQ",
                     "link": "/faq"
+                },
+                {
+                    "id": "menu-34",
+                    "text": "Documentation",
+                    "link": "https://docs.cosmic-horizon.com"
                 }
             ]
         },
