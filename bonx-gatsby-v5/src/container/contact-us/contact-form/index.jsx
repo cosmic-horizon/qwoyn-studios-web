@@ -49,7 +49,7 @@ const ContactFormArea = ({ data }) => {
                         <textarea
                             className="px-6 pt-4 h-72 mb-6 border-secondary-90 bg-secondary-100 hover:border-primary transition-all border-2 border-solid block rounded-md w-full focus:outline-none"
                             type="text"
-                            placeholder="Write from here"
+                            placeholder="Write us a message."
                         />
                     </div>
                 </div>
