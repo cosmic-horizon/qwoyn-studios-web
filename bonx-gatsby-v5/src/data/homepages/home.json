@@ -314,6 +314,18 @@
                     "name": "Cosmostation",
                     "designation": "Web 3 Wallet Provider",
                     "description": "Cosmostation is a non-custodial multi-chain cryptocurrency browser extension wallet that supports 50+ chains including Ethereum, Cosmos, dYdX Chain, Sui, and more. With Cosmostation, you can manage all your assets with one wallet, one key."
+                },
+                {
+                    "id": "testimonial-08",
+                    "images": [
+                        {
+                            "src": "../../data/images/testimonial/andromeda.png",
+                            "alt": "Andromeda"
+                        }
+                    ],
+                    "name": "Andromeda",
+                    "designation": "Decentralized Operating System",
+                    "description": "Andromeda is an all on-chain and multi-chain suite of products, tools, and utilities enabled by a decentralized Operating System we call aOS, or Andromeda Operating System. aOS is where Web3 starts."
                 }
             ]
         },
