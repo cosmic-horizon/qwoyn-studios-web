@@ -17,41 +17,17 @@ const ContactFormArea = ({ data }) => {
                     )}
                 </div>
                 <div className="grid gap-x-8 grid-cols-2">
-                    <div className="single-fild">
-                        <input
-                            className="px-6 h-14 mb-6 border-secondary-90 bg-secondary-100 hover:border-primary transition-all border-2 border-solid block rounded-md w-full focus:outline-none"
-                            type="text"
-                            placeholder="Name"
-                        />
-                    </div>
-                    <div className="single-fild">
-                        <input
-                            className="px-6 h-14 mb-6 border-secondary-90 bg-secondary-100 hover:border-primary transition-all border-2 border-solid block rounded-md w-full focus:outline-none"
-                            type="email"
-                            placeholder="E-mail"
-                        />
-                    </div>
-                    <div className="single-fild">
-                        <input
-                            className="px-6 h-14 mb-6 border-secondary-90 bg-secondary-100 hover:border-primary transition-all border-2 border-solid block rounded-md w-full focus:outline-none"
-                            type="text"
-                            placeholder="Phone"
-                        />
-                    </div>
-                    <div className="single-fild">
-                        <input
-                            className="px-6 h-14 mb-6 border-secondary-90 bg-secondary-100 hover:border-primary transition-all border-2 border-solid block rounded-md w-full focus:outline-none"
-                            type="text"
-                            placeholder="Address"
-                        />
-                    </div>
-                    <div className="single-fild col-span-2">
-                        <textarea
-                            className="px-6 pt-4 h-72 mb-6 border-secondary-90 bg-secondary-100 hover:border-primary transition-all border-2 border-solid block rounded-md w-full focus:outline-none"
-                            type="text"
-                            placeholder="Write us a message."
-                        />
-                    </div>
+                    <form name="contact" netlify>
+                        <p>
+                            <label>Name <input type="text" name="name" /></label>
+                        </p>
+                        <p>
+                            <label>Email <input type="email" name="email" /></label>
+                        </p>
+                        <p>
+                            <button type="submit">Send</button>
+                        </p>
+                    </form>
                 </div>
                 {data?.buttons &&
                     data.buttons.map(({ id, content, ...props }) => (
