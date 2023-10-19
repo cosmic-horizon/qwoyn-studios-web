@@ -20,8 +20,7 @@ const ContactFormArea = ({ data }) => {
                     <div className="single-fild">
                         <input
                             className="px-6 h-14 mb-6 border-secondary-90 bg-secondary-100 hover:border-primary transition-all border-2 border-solid block rounded-md w-full focus:outline-none"
-                            type="hidden"
-                            name={"contact"}
+                            type="text"
                             placeholder="Name"
                         />
                     </div>

@@ -25,7 +25,7 @@ const ContactUsPage = ({ data, location, pageContext }) => {
                 title="Contact Us"
             />
             <ContactUsInfoArea data={content["contact-us-info-section"]} />
-            <ContactFormArea data={content["contact-us-form-section"]} />
+            {/*<ContactFormArea data={content["contact-us-form-section"]} />*/}
         </Layout>
     );
 };
