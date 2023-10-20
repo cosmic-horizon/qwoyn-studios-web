@@ -326,6 +326,18 @@
                     "name": "Andromeda",
                     "designation": "Decentralized Operating System",
                     "description": "Andromeda is an all on-chain and multi-chain suite of products, tools, and utilities enabled by a decentralized Operating System we call aOS, or Andromeda Operating System. aOS is where Web3 starts."
+                },
+                {
+                    "id": "testimonial-09",
+                    "images": [
+                        {
+                            "src": "../../data/images/testimonial/slow-ninja.png",
+                            "alt": "Slow Ninja"
+                        }
+                    ],
+                    "name": "Slow Ninja",
+                    "designation": "Web3 Game Studio",
+                    "description": "Defining skill-based blockchain gaming since 2014."
                 }
             ]
         },
