@@ -79,6 +79,7 @@ const Header = ({ data }) => {
                             ) : (
                                 keplrAddress &&
                                 <div
+                                    className="relative"
                                     onMouseEnter={() => setShowDisconnect(true)}
                                     onMouseLeave={() => setShowDisconnect(false)}
                                 >
@@ -86,7 +87,10 @@ const Header = ({ data }) => {
                                         {`qwoyn...${keplrAddress.slice(-4)}`}
                                     </Button>
                                     {showDisconnect && (
-                                        <div onClick={disconnectKeplr} style={{ position: 'absolute' }}>
+                                        <div
+                                            onClick={disconnectKeplr}
+                                            className="absolute top-full left-0 mt-2 bg-white text-black px-3 py-1 border rounded shadow cursor-pointer"
+                                        >
                                             Disconnect
                                         </div>
                                     )}
@@ -103,12 +107,6 @@ const Header = ({ data }) => {
             </div>
         </header>
     );
-};
-
-Header.propTypes = {
-    data: PropTypes.shape({
-        menu: PropTypes.arrayOf(PropTypes.shape({})),
-    }),
 };
 
 export default Header;
