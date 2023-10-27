@@ -24,6 +24,7 @@ const Header = ({ data }) => {
 
     useEffect(() => {
         if (window.getOfflineSigner && window.keplr) {
+            console.log("Keplr detected.");
             setKeplrInstalled(true);
         }
     }, []);
@@ -31,7 +32,7 @@ const Header = ({ data }) => {
     const loadKeplr = async () => {
         if (isKeplrInstalled) {
             try {
-                const chainId = "YOUR_CHAIN_ID"; // Replace with your chain ID
+                const chainId = "qwoyn-1"; // Replace with your chain ID
                 await window.keplr.enable(chainId);
                 const offlineSigner = window.getOfflineSigner(chainId);
                 const accounts = await offlineSigner.getAccounts();
