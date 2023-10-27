@@ -64,7 +64,7 @@ const Header = ({ data }) => {
                             <Logo />
                         </div>
                         <MainMenu allmenuData={data?.menu} />
-                        <div className="header-right-action flex items-center">
+                        <div className="header-right-action flex items-center relative">
                             {isKeplrInstalled && !keplrAddress ? (
                                 <Button onClick={loadKeplr} shape="square2xl" className="text-white hidden xs:block">
                                     Connect Keplr
@@ -72,13 +72,13 @@ const Header = ({ data }) => {
                             ) : (
                                 <div className="group inline-block relative">
                                     <Button shape="square2xl" className="text-white hidden xs:block group-hover:opacity-80">
-                                        {keplrAddress ? `qwoyn...${keplrAddress.slice(-4)}` : ''}
+                                        {keplrAddress ? `qwoyn...${keplrAddress.slice(-4)}` : 'Loading...'}
                                     </Button>
-                                    {showDropdown && (
-                                        <div className="absolute top-full left-0 mt-2 bg-white text-black border rounded shadow p-3 truncate">
+                                    <div className={`absolute top-full left-0 mt-2 bg-white text-black border rounded shadow p-3 truncate ${showDropdown ? 'block' : 'hidden'}`}>
+                                        <button onClick={disconnectKeplr} className="text-black">
                                             Disconnect
-                                        </div>
-                                    )}
+                                        </button>
+                                    </div>
                                 </div>
                             )}
                             <MobileNavMenu
