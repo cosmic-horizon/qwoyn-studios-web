@@ -64,30 +64,21 @@ const Header = ({ data }) => {
                             <Logo />
                         </div>
                         <MainMenu allmenuData={data?.menu} />
-                        <div className="header-right-action flex items-center space-x-4"> {/* Added space-x-4 for spacing */}
+                        <div className="header-right-action flex items-center">
                             {isKeplrInstalled && !keplrAddress ? (
                                 <Button onClick={loadKeplr} shape="square2xl" className="text-white hidden xs:block">
                                     Connect Keplr
                                 </Button>
                             ) : (
-                                <div
-                                    className="relative group"
-                                >
-                                    <Button shape="square2xl" className="text-white hidden xs:block">
-                                        {keplrAddress ? `qwoyn...${keplrAddress.slice(-4)}` : ""}
+                                <div className="group inline-block relative">
+                                    <Button shape="square2xl" className="text-white hidden xs:block group-hover:opacity-80">
+                                        {`qwoyn...${keplrAddress.slice(-4)}`}
                                     </Button>
-                                    <div
-                                        className="absolute top-full left-0 mt-1 bg-white text-black border rounded shadow p-3 transition-opacity opacity-0 group-hover:opacity-100"
-                                    >
-                                        <p>Your Address:</p>
-                                        <p className="truncate">{keplrAddress}</p>
-                                        <Button
-                                            onClick={disconnectKeplr}
-                                            className="mt-2"
-                                        >
+                                    {showDropdown && (
+                                        <div className="absolute top-full left-0 mt-2 bg-white text-black border rounded shadow p-3 truncate">
                                             Disconnect
-                                        </Button>
-                                    </div>
+                                        </div>
+                                    )}
                                 </div>
                             )}
                             <MobileNavMenu
