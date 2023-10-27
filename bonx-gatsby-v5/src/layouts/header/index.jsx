@@ -76,11 +76,10 @@ const Header = ({ data }) => {
                             ) : (
                                 keplrAddress ? (
                                     <span className="text-white hidden xs:block">
-                {keplrAddress}
+                {`qwoyn...${keplrAddress.slice(-4)}`}
             </span>
                                 ) : null
                             )}
-
                             <MobileNavMenu
                                 MobilemenuData={data.menu}
                                 ofcanvasOpen={ofcanvasOpen}
