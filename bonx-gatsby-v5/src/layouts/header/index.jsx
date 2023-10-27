@@ -67,19 +67,12 @@ const Header = ({ data }) => {
                         <MainMenu allmenuData={data?.menu} />
                         <div className="header-right-action flex items-center">
                             {isKeplrInstalled && !keplrAddress ? (
-                                <Button
-                                    onClick={loadKeplr}
-                                    shape="square2xl"
-                                    className="text-white hidden xs:block"
-                                >
+                                <Button onClick={loadKeplr} shape="square2xl" className="text-white hidden xs:block">
                                     Connect Keplr
                                 </Button>
                             ) : (
                                 keplrAddress &&
-                                <Button
-                                    shape="square2xl"
-                                    className="text-white hidden xs:block"
-                                >
+                                <Button shape="square2xl" className="text-white hidden xs:block">
                                     {`qwoyn...${keplrAddress.slice(-4)}`}
                                 </Button>
                             )}

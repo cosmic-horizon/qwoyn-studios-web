@@ -22,81 +22,29 @@ const colorStyle = {
     secondary: `bg-secondary`,
 };
 
-const Button = ({ children, type, path, className, size, shape, color }) => {
-    const btnstyle = {
-        size: size || "md",
-        shape: shape || "square22xl",
-        color: color || "primary",
-    };
-    const buttonClasses = cn(
-        className,
-        "font-exo",
-        "inline-block",
-        "text-center",
-        "font-bold",
-        "group",
-        "hover:opacity-80",
-        sizeStyle[btnstyle["size"]],
-        shapeStyle[btnstyle["shape"]],
-        colorStyle[btnstyle["color"]]
-    );
+const Button = ({ children, type, path, className, size, shape, color, onClick }) => {
+    const btnstyle = { size: size || "md", shape: shape || "square22xl", color: color || "primary" };
+    const buttonClasses = cn(className, "font-exo", "inline-block", "text-center", "font-bold", "group", "hover:opacity-80", sizeStyle[btnstyle.size], shapeStyle[btnstyle.shape], colorStyle[btnstyle.color]);
 
-    const btnImageSm = {
-        backgroundImage: `url(${btnImagesm})`,
-        backgroundPosition: "center",
-        backgroundRepeat: "no-repeat",
-    };
-    const btnImageLg = {
-        backgroundImage: `url(${btnImagelg})`,
-        backgroundPosition: "center",
-        backgroundRepeat: "no-repeat",
-    };
+    const btnImageSm = { backgroundImage: `url(${btnImagesm})`, backgroundPosition: "center", backgroundRepeat: "no-repeat" };
+    const btnImageLg = { backgroundImage: `url(${btnImagelg})`, backgroundPosition: "center", backgroundRepeat: "no-repeat" };
 
     if (path) {
         const internal = /^\/(?!\/)/.test(path);
         const isHash = path.startsWith("#");
 
         if (internal) {
-            return (
-                <Link
-                    to={path}
-                    style={size ? btnImageLg : btnImageSm}
-                    className={buttonClasses}
-                >
-                    {children}
-                </Link>
-            );
+            return <Link to={path} style={size ? btnImageLg : btnImageSm} className={buttonClasses} onClick={onClick}>{children}</Link>;
         }
         if (isHash) {
-            return (
-                <button
-                    href={path}
-                    style={size ? btnImageLg : btnImageSm}
-                    className={buttonClasses}
-                >
-                    {children}
-                </button>
-            );
+            return <button href={path} style={size ? btnImageLg : btnImageSm} className={buttonClasses} onClick={onClick}>{children}</button>;
         }
-        return (
-            <a
-                href={path}
-                target="_blank"
-                style={size ? btnImageLg : btnImageSm}
-                className={buttonClasses}
-                rel="noopener noreferrer"
-            >
-                {children}
-            </a>
-        );
+        return <a href={path} target="_blank" style={size ? btnImageLg : btnImageSm} className={buttonClasses} onClick={onClick} rel="noopener noreferrer">{children}</a>;
     }
 
-    return (
-        <button style={size} type={type} className={buttonClasses}>
-            {children}
-        </button>
-    );
+    return <button style={size} type={type} className={buttonClasses} onClick={onClick}>{children}</button>;
 };
+
 Button.propTypes = {
     children: PropTypes.node.isRequired,
     className: PropTypes.string,
@@ -118,9 +66,6 @@ Button.propTypes = {
         "light",
         "warning",
     ]),
-    path: PropTypes.string,
 };
-Button.defaultProps = {
-    type: "button",
-};
+Button.defaultProps = { type: "button" };
 export default Button;
