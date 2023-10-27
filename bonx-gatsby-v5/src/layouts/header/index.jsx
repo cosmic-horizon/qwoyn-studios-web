@@ -30,7 +30,11 @@ const Header = ({ data }) => {
     }, []);
 
     const loadKeplr = async () => {
+        console.log("loadKeplr function called"); // Add this
+
         if (isKeplrInstalled) {
+            console.log("Trying to connect to Keplr"); // And this
+
             try {
                 const chainId = "qwoyn-1"; // Replace with your chain ID
                 await window.keplr.enable(chainId);
@@ -42,6 +46,7 @@ const Header = ({ data }) => {
             }
         }
     };
+
 
     return (
         <header
@@ -62,18 +67,23 @@ const Header = ({ data }) => {
                         <MainMenu allmenuData={data?.menu} />
                         <div className="header-right-action flex items-center">
                             {isKeplrInstalled && !keplrAddress ? (
-                                <Button
+                                <button
                                     onClick={loadKeplr}
-                                    shape="square2xl"
                                     className="text-white hidden xs:block"
+                                    style={{ padding: '8px 16px', border: 'none', borderRadius: '4px', background: '#333' }}
                                 >
                                     Connect Keplr
-                                </Button>
-                            ) : (
-                                keplrAddress &&
-                                <button onClick={loadKeplr} className="text-white hidden xs:block">
-                                    Connect Keplr
                                 </button>
+                            ) : (
+                                keplrAddress && (
+                                    <button
+                                        onClick={loadKeplr}
+                                        className="text-white hidden xs:block"
+                                        style={{ padding: '8px 16px', border: 'none', borderRadius: '4px', background: '#333' }}
+                                    >
+                                        Connect Keplr
+                                    </button>
+                                )
                             )}
 
                             <MobileNavMenu
