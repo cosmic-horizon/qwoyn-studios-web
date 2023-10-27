@@ -72,15 +72,18 @@ const Header = ({ data }) => {
                                 keplrAddress && <span>Address: {keplrAddress}</span>
                             )}
 
-                            <button
+                            <Button
                                 onClick={ofcanvasHandaler}
-                                onKeyDown={ofcanvasHandaler}
-                                className="flex flex-col space-y-1.5 ml-8 lg:hidden"
+                                shape="square2xl"
+                                className="text-white hidden xs:block ml-8"
                             >
-                                <span className="line h-0.5 w-6 inline-block bg-white"></span>
-                                <span className="line h-0.5 w-6 inline-block bg-white"></span>
-                                <span className="line h-0.5 w-6 inline-block bg-white"></span>
-                            </button>
+                                <div className="flex flex-col space-y-1.5">
+                                    <span className="line h-0.5 w-6 inline-block bg-white"></span>
+                                    <span className="line h-0.5 w-6 inline-block bg-white"></span>
+                                    <span className="line h-0.5 w-6 inline-block bg-white"></span>
+                                </div>
+                            </Button>
+
                             <MobileNavMenu
                                 MobilemenuData={data.menu}
                                 ofcanvasOpen={ofcanvasOpen}
