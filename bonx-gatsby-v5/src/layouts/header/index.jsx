@@ -1,3 +1,4 @@
+import { StaticImage } from "gatsby-plugin-image";
 import PropTypes from "prop-types";
 import React, { useState, useEffect } from "react";
 import Logo from "../../components/logo";
@@ -20,9 +21,6 @@ const Header = ({ data }) => {
     // Keplr state
     const [isKeplrInstalled, setKeplrInstalled] = useState(false);
     const [keplrAddress, setKeplrAddress] = useState(null);
-
-    // State for hover disconnect option
-    const [showDisconnect, setShowDisconnect] = useState(false);
 
     useEffect(() => {
         if (window.getOfflineSigner && window.keplr) {
@@ -49,22 +47,17 @@ const Header = ({ data }) => {
         }
     };
 
+    const [showDropdown, setShowDropdown] = useState(false);
+
     const disconnectKeplr = () => {
+        console.log("Keplr disconnected");
+        setShowDropdown(false);
         setKeplrAddress(null);
-        setShowDisconnect(false);
     };
 
     return (
-        <header
-            ref={headerRef}
-            className="bg-transparent absolute w-full mx-auto z-40"
-        >
-            <div
-                ref={fixedRef}
-                className={`header-top ${
-                    sticky ? "fixed top-0 bg-secondary-100 opacity-90 w-full" : ""
-                }`}
-            >
+        <header ref={headerRef} className="bg-transparent absolute w-full mx-auto z-40">
+            <div ref={fixedRef} className={`header-top ${sticky ? "fixed top-0 bg-secondary-100 opacity-90 w-full" : ""}`}>
                 <div className="container px-4">
                     <nav className="bg-transparent flex justify-between items-center py-3">
                         <div className="text-3xl font-semibold leading-none">
@@ -77,21 +70,24 @@ const Header = ({ data }) => {
                                     Connect Keplr
                                 </Button>
                             ) : (
-                                keplrAddress &&
                                 <div
                                     className="relative"
-                                    onMouseEnter={() => setShowDisconnect(true)}
-                                    onMouseLeave={() => setShowDisconnect(false)}
+                                    onMouseEnter={() => setShowDropdown(true)}
+                                    onMouseLeave={() => setShowDropdown(false)}
                                 >
                                     <Button shape="square2xl" className="text-white hidden xs:block">
                                         {`qwoyn...${keplrAddress.slice(-4)}`}
                                     </Button>
-                                    {showDisconnect && (
-                                        <div
-                                            onClick={disconnectKeplr}
-                                            className="absolute top-full left-0 mt-1 bg-white text-black px-3 py-1 border rounded shadow cursor-pointer"
-                                        >
-                                            Disconnect
+                                    {showDropdown && (
+                                        <div className="absolute top-full left-0 mt-2 bg-white text-black border rounded shadow p-3">
+                                            <p>Your Address:</p>
+                                            <p className="truncate">{keplrAddress}</p>
+                                            <Button
+                                                onClick={disconnectKeplr}
+                                                className="mt-2"
+                                            >
+                                                Disconnect
+                                            </Button>
                                         </div>
                                     )}
                                 </div>
@@ -107,6 +103,12 @@ const Header = ({ data }) => {
             </div>
         </header>
     );
+};
+
+Header.propTypes = {
+    data: PropTypes.shape({
+        menu: PropTypes.arrayOf(PropTypes.shape({})),
+    }),
 };
 
 export default Header;
