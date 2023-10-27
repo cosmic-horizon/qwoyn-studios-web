@@ -77,7 +77,6 @@ const Header = ({ data }) => {
                             ) : (
                                 keplrAddress &&
                                 <Button
-                                    onClick={() => {}}
                                     shape="square2xl"
                                     className="text-white hidden xs:block"
                                 >
