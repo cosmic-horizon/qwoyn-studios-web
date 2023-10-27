@@ -1,4 +1,3 @@
-import { StaticImage } from "gatsby-plugin-image";
 import PropTypes from "prop-types";
 import React, { useState, useEffect } from "react";
 import Logo from "../../components/logo";
@@ -21,6 +20,9 @@ const Header = ({ data }) => {
     // Keplr state
     const [isKeplrInstalled, setKeplrInstalled] = useState(false);
     const [keplrAddress, setKeplrAddress] = useState(null);
+
+    // State for hover disconnect option
+    const [showDisconnect, setShowDisconnect] = useState(false);
 
     useEffect(() => {
         if (window.getOfflineSigner && window.keplr) {
@@ -47,38 +49,47 @@ const Header = ({ data }) => {
         }
     };
 
-    const [showDropdown, setShowDropdown] = useState(false);
-
     const disconnectKeplr = () => {
-        console.log("Keplr disconnected");
-        setShowDropdown(false);
         setKeplrAddress(null);
+        setShowDisconnect(false);
     };
 
     return (
-        <header ref={headerRef} className="bg-transparent absolute w-full mx-auto z-40">
-            <div ref={fixedRef} className={`header-top ${sticky ? "fixed top-0 bg-secondary-100 opacity-90 w-full" : ""}`}>
+        <header
+            ref={headerRef}
+            className="bg-transparent absolute w-full mx-auto z-40"
+        >
+            <div
+                ref={fixedRef}
+                className={`header-top ${
+                    sticky ? "fixed top-0 bg-secondary-100 opacity-90 w-full" : ""
+                }`}
+            >
                 <div className="container px-4">
                     <nav className="bg-transparent flex justify-between items-center py-3">
                         <div className="text-3xl font-semibold leading-none">
                             <Logo />
                         </div>
                         <MainMenu allmenuData={data?.menu} />
-                        <div className="header-right-action flex items-center relative">
+                        <div className="header-right-action flex items-center">
                             {isKeplrInstalled && !keplrAddress ? (
                                 <Button onClick={loadKeplr} shape="square2xl" className="text-white hidden xs:block">
                                     Connect Keplr
                                 </Button>
                             ) : (
-                                <div className="group inline-block relative">
-                                    <Button shape="square2xl" className="text-white hidden xs:block group-hover:opacity-80">
-                                        {keplrAddress ? `qwoyn...${keplrAddress.slice(-4)}` : 'Loading...'}
+                                keplrAddress &&
+                                <div
+                                    onMouseEnter={() => setShowDisconnect(true)}
+                                    onMouseLeave={() => setShowDisconnect(false)}
+                                >
+                                    <Button shape="square2xl" className="text-white hidden xs:block">
+                                        {`qwoyn...${keplrAddress.slice(-4)}`}
                                     </Button>
-                                    <div className={`absolute top-full left-0 mt-2 bg-white text-black border rounded shadow p-3 truncate ${showDropdown ? 'block' : 'hidden'}`}>
-                                        <button onClick={disconnectKeplr} className="text-black">
+                                    {showDisconnect && (
+                                        <div onClick={disconnectKeplr} style={{ position: 'absolute' }}>
                                             Disconnect
-                                        </button>
-                                    </div>
+                                        </div>
+                                    )}
                                 </div>
                             )}
                             <MobileNavMenu
