@@ -72,7 +72,7 @@ const Header = ({ data }) => {
                             ) : (
                                 <div className="group inline-block relative">
                                     <Button shape="square2xl" className="text-white hidden xs:block group-hover:opacity-80">
-                                        {`qwoyn...${keplrAddress.slice(-4)}`}
+                                        {keplrAddress ? `qwoyn...${keplrAddress.slice(-4)}` : ''}
                                     </Button>
                                     {showDropdown && (
                                         <div className="absolute top-full left-0 mt-2 bg-white text-black border rounded shadow p-3 truncate">
