@@ -5,9 +5,11 @@ import "@assets/css/modal-video.min.css";
 import Header from "./header";
 import Footer from "./footer";
 import BodyImage from "../data/images/others/body-bg.webp";
+import { KeplrProvider } from '../utils/KeplrContext';
 
 const Layout = ({ data, children }) => {
     return (
+        <KeplrProvider>
         <div
             className="wrapper"
             style={{
@@ -17,6 +19,7 @@ const Layout = ({ data, children }) => {
             <Header data={data} />
             {children}
             <Footer data={data} />
+        </KeplrProvider>
         </div>
     );
 };
