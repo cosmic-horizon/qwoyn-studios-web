@@ -59,7 +59,7 @@ const Header = ({ data }) => {
         <header ref={headerRef} className="bg-transparent absolute w-full mx-auto z-40">
             <div ref={fixedRef} className={`header-top ${sticky ? "fixed top-0 bg-secondary-100 opacity-90 w-full" : ""}`}>
                 <div className="container px-4">
-                    <nav className="bg-transparent flex justify-between items-center py-3">
+                    <nav className="bg-transparent flex justify between items-center py-3">
                         <div className="text-3xl font-semibold leading-none">
                             <Logo />
                         </div>
@@ -76,9 +76,9 @@ const Header = ({ data }) => {
                                     onMouseLeave={() => setShowDropdown(false)}
                                 >
                                     <Button shape="square2xl" className="text-white hidden xs:block">
-                                        {`qwoyn...${keplrAddress.slice(-4)}`}
+                                        {keplrAddress ? `qwoyn...${keplrAddress.slice(-4)}` : ""}
                                     </Button>
-                                    {showDropdown && (
+                                    {showDropdown && keplrAddress && (
                                         <div className="absolute top-full left-0 mt-2 bg-white text-black border rounded shadow p-3">
                                             <p>Your Address:</p>
                                             <p className="truncate">{keplrAddress}</p>
