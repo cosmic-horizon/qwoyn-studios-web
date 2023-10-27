@@ -58,7 +58,7 @@ const Header = ({ data }) => {
         <header ref={headerRef} className="bg-transparent absolute w-full mx-auto z-40">
             <div ref={fixedRef} className={`header-top ${sticky ? "fixed top-0 bg-secondary-100 opacity-90 w-full" : ""}`}>
                 <div className="container px-4">
-                    <nav className="bg-transparent flex justify-between items-center py-3">
+                    <nav className="bg-transparent flex justify-between items-center py-3 px-4"> {/* Added padding for spacing */}
                         <div className="text-3xl font-semibold leading-none">
                             <Logo />
                         </div>
@@ -72,7 +72,7 @@ const Header = ({ data }) => {
                                 <div
                                     className="relative group"
                                 >
-                                    <Button shape="square2xl" className="text-white hidden xs:block">
+                                    <Button shape="square2xl" className="text-white hidden xs:block w-48 truncate shadow-md px-2 py-1 rounded-md">
                                         {keplrAddress ? `qwoyn...${keplrAddress.slice(-4)}` : ""}
                                     </Button>
                                     <div
@@ -80,12 +80,12 @@ const Header = ({ data }) => {
                                     >
                                         <p>Your Address:</p>
                                         <p className="truncate">{keplrAddress}</p>
-                                        <Button
+                                        <div
                                             onClick={disconnectKeplr}
-                                            className="mt-2"
+                                            className="mt-2 text-black bg-white px-3 py-1 rounded-md cursor-pointer hover:bg-gray-100 transition-colors duration-200"
                                         >
                                             Disconnect
-                                        </Button>
+                                        </div>
                                     </div>
                                 </div>
                             )}
