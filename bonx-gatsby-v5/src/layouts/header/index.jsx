@@ -5,36 +5,35 @@ import MainMenu from "../../components/menu/main-menu";
 import MobileNavMenu from "../../components/menu/mobile-menu";
 import Button from "../../components/shared/button";
 import { useSticky } from "../../hooks";
+import { useKeplr } from "../../utils/KeplrContext"; // Import the KeplrContext
 
 const Header = ({ data }) => {
-    // Sticky Header
     const { sticky, headerRef, fixedRef } = useSticky();
+    const { isConnected, keplrAddress, connectKeplr, disconnectKeplr, getBalance } = useKeplr(); // Use the KeplrContext
 
-    // OfCanvas Menu
-    const [ofcanvasOpen, setOfcanvasOpen] = useState(false);
-
-    const ofcanvasHandaler = () => {
-        setOfcanvasOpen((prev) => !prev);
-    };
-
-    // Keplr state
-    const [isKeplrInstalled, setKeplrInstalled] = useState(false);
-    const [keplrAddress, setKeplrAddress] = useState(null);
-
-    // State for hover disconnect option
-    const [showDisconnect, setShowDisconnect] = useState(false);
+    // State for balance
+    const [balance, setBalance] = useState(null);
 
     useEffect(() => {
         if (window.getOfflineSigner && window.keplr) {
             console.log("Keplr detected.");
-            setKeplrInstalled(true);
+            if (localStorage.getItem('keplrAddress')) {
+                connectKeplr(localStorage.getItem('keplrAddress'));
+            }
         }
-    }, []);
+    }, [connectKeplr]);
+
+    useEffect(() => {
+        if (isConnected) {
+            // Retrieve balance when connected
+            getBalance().then((b) => setBalance(b));
+        } else {
+            setBalance(null); // Reset balance when disconnected
+        }
+    }, [isConnected, getBalance]);
 
     const loadKeplr = async () => {
-        console.log("loadKeplr function called");
-
-        if (isKeplrInstalled) {
+        if (!isConnected) {
             console.log("Trying to connect to Keplr");
 
             try {
@@ -42,52 +41,41 @@ const Header = ({ data }) => {
                 await window.keplr.enable(chainId);
                 const offlineSigner = window.getOfflineSigner(chainId);
                 const accounts = await offlineSigner.getAccounts();
-                setKeplrAddress(accounts[0]?.address);
+                connectKeplr(accounts[0]?.address);
             } catch (error) {
                 console.error("Error connecting to Keplr:", error);
             }
         }
     };
 
-    const disconnectKeplr = () => {
-        setKeplrAddress(null);
-        setShowDisconnect(false);
-    };
-
     return (
         <header ref={headerRef} className="bg-transparent absolute w-full mx-auto z-40">
             <div ref={fixedRef} className={`header-top ${sticky ? "fixed top-0 bg-secondary-100 opacity-90 w-full" : ""}`}>
                 <div className="container px-4">
-                    <nav className="bg-transparent flex justify-between items-center py-3 px-4"> {/* Added padding for spacing */}
+                    <nav className="bg-transparent flex justify-between items-center py-3 px-4">
                         <div className="text-3xl font-semibold leading-none">
                             <Logo />
                         </div>
                         <MainMenu allmenuData={data?.menu} />
-                        <div className="header-right-action flex items-center space-x-4"> {/* Added space-x-4 for spacing */}
-                            {isKeplrInstalled && !keplrAddress ? (
+                        <div className="header-right-action flex items-center space-x-4">
+                            {isConnected ? (
+                                <div
+                                    onMouseEnter={() => setShowDisconnect(true)}
+                                    onMouseLeave={() => setShowDisconnect(false)}
+                                >
+                                    <Button shape="square2xl" className="text-white hidden xs:block">
+                                        {`Balance: ${balance ? balance : "Loading..."}`}
+                                    </Button>
+                                    {showDisconnect && (
+                                        <div onClick={disconnectKeplr} style={{ position: 'absolute' }}>
+                                            Disconnect
+                                        </div>
+                                    )}
+                                </div>
+                            ) : (
                                 <Button onClick={loadKeplr} shape="square2xl" className="text-white hidden xs:block">
                                     Connect Keplr
                                 </Button>
-                            ) : (
-                                <div
-                                    className="relative group"
-                                >
-                                    <Button shape="square2xl" className="text-white hidden xs:block w-48 truncate shadow-md px-2 py-1 rounded-md">
-                                        {keplrAddress ? `qwoyn...${keplrAddress.slice(-4)}` : ""}
-                                    </Button>
-                                    <div
-                                        className="absolute top-full left-0 mt-1 bg-white text-black border rounded shadow p-3 transition-opacity opacity-0 group-hover:opacity-100"
-                                    >
-                                        <p>Your Address:</p>
-                                        <p className="text-black">{keplrAddress ? `qwoyn...${keplrAddress.slice(-4)}` : ""}</p>
-                                        <div
-                                            onClick={disconnectKeplr}
-                                            className="mt-2 text-black bg-white px-3 py-1 rounded-md cursor-pointer hover:bg-gray-100 transition-colors duration-200"
-                                        >
-                                            Disconnect
-                                        </div>
-                                    </div>
-                                </div>
                             )}
                             <MobileNavMenu
                                 MobilemenuData={data.menu}
