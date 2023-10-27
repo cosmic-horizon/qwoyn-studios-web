@@ -14,6 +14,10 @@ const Header = ({ data }) => {
     // OfCanvas Menu
     const [ofcanvasOpen, setOfcanvasOpen] = useState(false);
 
+    const ofcanvasHandaler = () => {
+        setOfcanvasOpen((prev) => !prev);
+    };
+
     // Keplr state
     const [isKeplrInstalled, setKeplrInstalled] = useState(false);
     const [keplrAddress, setKeplrAddress] = useState(null);
