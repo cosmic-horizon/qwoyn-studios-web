@@ -70,13 +70,9 @@ const Header = ({ data }) => {
                                 </Button>
                             ) : (
                                 keplrAddress &&
-                                <Button
-                                    onClick={isKeplrInstalled && !keplrAddress ? loadKeplr : ofcanvasHandaler}
-                                    shape="square2xl"
-                                    className="text-white hidden xs:block"
-                                >
-                                    {isKeplrInstalled && !keplrAddress ? 'Connect Keplr' : 'Qwoyn Explorer'}
-                                </Button>
+                                <button onClick={loadKeplr} className="text-white hidden xs:block">
+                                    Connect Keplr
+                                </button>
                             )}
 
                             <MobileNavMenu
