@@ -31,7 +31,7 @@ const Header = ({ data }) => {
     const loadKeplr = async () => {
         if (isKeplrInstalled) {
             try {
-                const chainId = "qwoyn-1"; // Replace with your chain ID
+                const chainId = "YOUR_CHAIN_ID"; // Replace with your chain ID
                 await window.keplr.enable(chainId);
                 const offlineSigner = window.getOfflineSigner(chainId);
                 const accounts = await offlineSigner.getAccounts();
@@ -69,20 +69,19 @@ const Header = ({ data }) => {
                                     Connect Keplr
                                 </Button>
                             ) : (
-                                keplrAddress && <span>Address: {keplrAddress}</span>
+                                keplrAddress &&
+                                <Button
+                                    onClick={ofcanvasHandaler}
+                                    shape="square2xl"
+                                    className="text-white hidden xs:block ml-8"
+                                >
+                                    <div className="flex flex-col space-y-1.5">
+                                        <span className="line h-0.5 w-6 inline-block bg-white"></span>
+                                        <span className="line h-0.5 w-6 inline-block bg-white"></span>
+                                        <span className="line h-0.5 w-6 inline-block bg-white"></span>
+                                    </div>
+                                </Button>
                             )}
-
-                            <Button
-                                onClick={ofcanvasHandaler}
-                                shape="square2xl"
-                                className="text-white hidden xs:block ml-8"
-                            >
-                                <div className="flex flex-col space-y-1.5">
-                                    <span className="line h-0.5 w-6 inline-block bg-white"></span>
-                                    <span className="line h-0.5 w-6 inline-block bg-white"></span>
-                                    <span className="line h-0.5 w-6 inline-block bg-white"></span>
-                                </div>
-                            </Button>
 
                             <MobileNavMenu
                                 MobilemenuData={data.menu}
