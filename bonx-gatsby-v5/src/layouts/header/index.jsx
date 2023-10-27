@@ -79,7 +79,7 @@ const Header = ({ data }) => {
                                         className="absolute top-full left-0 mt-1 bg-white text-black border rounded shadow p-3 transition-opacity opacity-0 group-hover:opacity-100"
                                     >
                                         <p>Your Address:</p>
-                                        <p className="truncate">{keplrAddress}</p>
+                                        <p className="text-black">{keplrAddress ? `qwoyn...${keplrAddress.slice(-4)}` : ""}</p>
                                         <div
                                             onClick={disconnectKeplr}
                                             className="mt-2 text-black bg-white px-3 py-1 rounded-md cursor-pointer hover:bg-gray-100 transition-colors duration-200"
