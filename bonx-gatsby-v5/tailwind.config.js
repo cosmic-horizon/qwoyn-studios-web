@@ -144,6 +144,11 @@ module.exports = {
                 wide: "0.02em",
             },
         },
+        variants: {
+            extend: {
+                opacity: ["group-hover"],
+            },
+        },
         screens: {
             xs: "480px",
             sm: "640px",

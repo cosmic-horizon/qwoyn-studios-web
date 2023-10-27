@@ -59,37 +59,35 @@ const Header = ({ data }) => {
         <header ref={headerRef} className="bg-transparent absolute w-full mx-auto z-40">
             <div ref={fixedRef} className={`header-top ${sticky ? "fixed top-0 bg-secondary-100 opacity-90 w-full" : ""}`}>
                 <div className="container px-4">
-                    <nav className="bg-transparent flex justify between items-center py-3">
+                    <nav className="bg-transparent flex justify-between items-center py-3">
                         <div className="text-3xl font-semibold leading-none">
                             <Logo />
                         </div>
                         <MainMenu allmenuData={data?.menu} />
-                        <div className="header-right-action flex items-center">
+                        <div className="header-right-action flex items-center space-x-4"> {/* Added space-x-4 for spacing */}
                             {isKeplrInstalled && !keplrAddress ? (
                                 <Button onClick={loadKeplr} shape="square2xl" className="text-white hidden xs:block">
                                     Connect Keplr
                                 </Button>
                             ) : (
                                 <div
-                                    className="relative"
-                                    onMouseEnter={() => setShowDropdown(true)}
-                                    onMouseLeave={() => setShowDropdown(false)}
+                                    className="relative group"
                                 >
                                     <Button shape="square2xl" className="text-white hidden xs:block">
                                         {keplrAddress ? `qwoyn...${keplrAddress.slice(-4)}` : ""}
                                     </Button>
-                                    {showDropdown && keplrAddress && (
-                                        <div className="absolute top-full left-0 mt-2 bg-white text-black border rounded shadow p-3">
-                                            <p>Your Address:</p>
-                                            <p className="truncate">{keplrAddress}</p>
-                                            <Button
-                                                onClick={disconnectKeplr}
-                                                className="mt-2"
-                                            >
-                                                Disconnect
-                                            </Button>
-                                        </div>
-                                    )}
+                                    <div
+                                        className="absolute top-full left-0 mt-1 bg-white text-black border rounded shadow p-3 transition-opacity opacity-0 group-hover:opacity-100"
+                                    >
+                                        <p>Your Address:</p>
+                                        <p className="truncate">{keplrAddress}</p>
+                                        <Button
+                                            onClick={disconnectKeplr}
+                                            className="mt-2"
+                                        >
+                                            Disconnect
+                                        </Button>
+                                    </div>
                                 </div>
                             )}
                             <MobileNavMenu
