@@ -69,19 +69,16 @@ const Header = ({ data }) => {
                             {isKeplrInstalled && !keplrAddress ? (
                                 <button
                                     onClick={loadKeplr}
-                                    className="text-white hidden xs:block square2xl" // add the classes from the original button
+                                    className="text-white hidden xs:block square2xl"
                                 >
                                     Connect Keplr
                                 </button>
                             ) : (
-                                keplrAddress && (
-                                    <button
-                                        onClick={loadKeplr}
-                                        className="text-white hidden xs:block square2xl" // add the classes from the original button
-                                    >
-                                        Connect Keplr
-                                    </button>
-                                )
+                                keplrAddress ? (
+                                    <span className="text-white hidden xs:block">
+                {keplrAddress}
+            </span>
+                                ) : null
                             )}
 
                             <MobileNavMenu
