@@ -71,15 +71,11 @@ const Header = ({ data }) => {
                             ) : (
                                 keplrAddress &&
                                 <Button
-                                    onClick={ofcanvasHandaler}
+                                    onClick={isKeplrInstalled && !keplrAddress ? loadKeplr : ofcanvasHandaler}
                                     shape="square2xl"
-                                    className="text-white hidden xs:block ml-8"
+                                    className="text-white hidden xs:block"
                                 >
-                                    <div className="flex flex-col space-y-1.5">
-                                        <span className="line h-0.5 w-6 inline-block bg-white"></span>
-                                        <span className="line h-0.5 w-6 inline-block bg-white"></span>
-                                        <span className="line h-0.5 w-6 inline-block bg-white"></span>
-                                    </div>
+                                    {isKeplrInstalled && !keplrAddress ? 'Connect Keplr' : 'Qwoyn Explorer'}
                                 </Button>
                             )}
 
