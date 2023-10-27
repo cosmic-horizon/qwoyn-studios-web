@@ -69,8 +69,7 @@ const Header = ({ data }) => {
                             {isKeplrInstalled && !keplrAddress ? (
                                 <button
                                     onClick={loadKeplr}
-                                    className="text-white hidden xs:block"
-                                    style={{ padding: '8px 16px', border: 'none', borderRadius: '4px', background: '#333' }}
+                                    className="text-white hidden xs:block square2xl" // add the classes from the original button
                                 >
                                     Connect Keplr
                                 </button>
@@ -78,8 +77,7 @@ const Header = ({ data }) => {
                                 keplrAddress && (
                                     <button
                                         onClick={loadKeplr}
-                                        className="text-white hidden xs:block"
-                                        style={{ padding: '8px 16px', border: 'none', borderRadius: '4px', background: '#333' }}
+                                        className="text-white hidden xs:block square2xl" // add the classes from the original button
                                     >
                                         Connect Keplr
                                     </button>
