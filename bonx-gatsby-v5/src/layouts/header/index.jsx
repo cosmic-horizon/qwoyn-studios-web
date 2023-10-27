@@ -1,4 +1,3 @@
-import { StaticImage } from "gatsby-plugin-image";
 import PropTypes from "prop-types";
 import React, { useState, useEffect } from "react";
 import Logo from "../../components/logo";
@@ -22,6 +21,9 @@ const Header = ({ data }) => {
     const [isKeplrInstalled, setKeplrInstalled] = useState(false);
     const [keplrAddress, setKeplrAddress] = useState(null);
 
+    // State for hover disconnect option
+    const [showDisconnect, setShowDisconnect] = useState(false);
+
     useEffect(() => {
         if (window.getOfflineSigner && window.keplr) {
             console.log("Keplr detected.");
@@ -30,13 +32,13 @@ const Header = ({ data }) => {
     }, []);
 
     const loadKeplr = async () => {
-        console.log("loadKeplr function called"); // Add this
+        console.log("loadKeplr function called");
 
         if (isKeplrInstalled) {
-            console.log("Trying to connect to Keplr"); // And this
+            console.log("Trying to connect to Keplr");
 
             try {
-                const chainId = "qwoyn-1"; // Replace with your chain ID
+                const chainId = "qwoyn-1";
                 await window.keplr.enable(chainId);
                 const offlineSigner = window.getOfflineSigner(chainId);
                 const accounts = await offlineSigner.getAccounts();
@@ -47,6 +49,10 @@ const Header = ({ data }) => {
         }
     };
 
+    const disconnectKeplr = () => {
+        setKeplrAddress(null);
+        setShowDisconnect(false);
+    };
 
     return (
         <header
@@ -72,9 +78,19 @@ const Header = ({ data }) => {
                                 </Button>
                             ) : (
                                 keplrAddress &&
-                                <Button shape="square2xl" className="text-white hidden xs:block">
-                                    {`qwoyn...${keplrAddress.slice(-4)}`}
-                                </Button>
+                                <div
+                                    onMouseEnter={() => setShowDisconnect(true)}
+                                    onMouseLeave={() => setShowDisconnect(false)}
+                                >
+                                    <Button shape="square2xl" className="text-white hidden xs:block">
+                                        {`qwoyn...${keplrAddress.slice(-4)}`}
+                                    </Button>
+                                    {showDisconnect && (
+                                        <div onClick={disconnectKeplr} style={{ position: 'absolute' }}>
+                                            Disconnect
+                                        </div>
+                                    )}
+                                </div>
                             )}
                             <MobileNavMenu
                                 MobilemenuData={data.menu}
