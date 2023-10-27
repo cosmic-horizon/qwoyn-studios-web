@@ -1,5 +1,5 @@
 import PropTypes from "prop-types";
-import React, { useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import Logo from "../../components/logo";
 import MainMenu from "../../components/menu/main-menu";
 import MobileNavMenu from "../../components/menu/mobile-menu";
@@ -10,6 +10,13 @@ import { useKeplr } from "../../utils/KeplrContext"; // Import the KeplrContext
 const Header = ({ data }) => {
     const { sticky, headerRef, fixedRef } = useSticky();
     const { isConnected, keplrAddress, connectKeplr, disconnectKeplr } = useKeplr(); // Use the KeplrContext
+
+    const [showDisconnect, setShowDisconnect] = useState(false);
+    const [ofcanvasOpen, setOfcanvasOpen] = useState(false);
+
+    const ofcanvasHandaler = () => {
+        setOfcanvasOpen((prev) => !prev);
+    };
 
     useEffect(() => {
         if (window.getOfflineSigner && window.keplr) {
