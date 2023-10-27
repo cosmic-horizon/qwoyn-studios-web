@@ -70,14 +70,15 @@ const Header = ({ data }) => {
                                 <button
                                     onClick={loadKeplr}
                                     className="text-white hidden xs:block square2xl"
+                                    shape="square2xl"
                                 >
                                     Connect Keplr
                                 </button>
                             ) : (
                                 keplrAddress ? (
                                     <span className="text-white hidden xs:block">
-                {`qwoyn...${keplrAddress.slice(-4)}`}
-            </span>
+                                     {`qwoyn...${keplrAddress.slice(-4)}`}
+                                    </span>
                                 ) : null
                             )}
                             <MobileNavMenu
