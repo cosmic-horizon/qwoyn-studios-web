@@ -89,7 +89,7 @@ const Header = ({ data }) => {
                                     {showDisconnect && (
                                         <div
                                             onClick={disconnectKeplr}
-                                            className="absolute top-full left-0 mt-2 bg-white text-black px-3 py-1 border rounded shadow cursor-pointer"
+                                            className="absolute top-full left-0 mt-1 bg-white text-black px-3 py-1 border rounded shadow cursor-pointer"
                                         >
                                             Disconnect
                                         </div>
